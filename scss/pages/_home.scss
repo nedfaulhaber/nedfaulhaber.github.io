@@ -1,4 +1,23 @@
-img {
+.hero {
+  display: flex;
   height: auto;
   width: 100vw;
+  justify-content: flex-start;
+  .sidebar {
+    display: flex;
+    height: auto;
+    width: 10%;
+    background-color: black;
+  }
+  img {
+    display: flex;
+    height: 100%;
+    width: 90%;
+  }
+}
+
+.empty {
+  height: 50px;
+  width: 100vw;
+  background-color: steelblue;
 }
