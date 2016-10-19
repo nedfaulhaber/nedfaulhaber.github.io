@@ -1,11 +1,11 @@
 .hero {
   display: flex;
   height: 720px;
-  // height: auto;
   width: 100vw;
-  // max-width: 1440px;
-  // justify-content: flex-start;
+  max-width: 1440px;
+  justify-content: flex-start;
   position: relative;
+  z-index: -2;
   :before {
     content: "";
     position: absolute;
@@ -14,14 +14,25 @@
     top: 0px;
     left: 0px;
     background-color: #2F195F;
-
+    z-index: -1;
+    // @media only screen and (1030px) {
+    //   top:
+    // }
   }
-  // .sidebar {
-  //   display: flex;
-  //   height: auto;
-  //   width: 10%;
-  //   background-color: black;
-  // }
+  .nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 144px;
+    z-index: 1;
+    li {
+      text-decoration: none;
+      color: #D8BFAA;
+    }
+  }
+
   .hero-image {
     display: flex;
     height: 100%;
@@ -30,12 +41,11 @@
     background-image: url('../img/hero1440.png');
     background-position: center;
     background-size: cover;
+    z-index: -2;
+    @media only screen and (max-width: 1030px) {
+      background-position: 75% 0%;
+    }
   }
-  // img {
-  //   display: flex;
-  //   height: 100%;
-  //   width: 90%;
-  // }
 }
 
 .empty {
