@@ -1,0 +1,8 @@
+//Text//
+
+@mixin font-face($family, $file) {
+  @font-face {
+    font-family: $family;
+    src: url("../fonts/#{$file}.ttf");
+  }
+}
