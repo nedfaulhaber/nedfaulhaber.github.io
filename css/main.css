@@ -1,22 +1,29 @@
 .hero {
   display: flex;
-  height: auto;
+  height: 720px;
   width: 100vw;
-  justify-content: flex-start; }
-  .hero .sidebar {
-    display: flex;
-    height: auto;
-    width: 10%;
-    background-color: black; }
-  .hero img {
+  position: relative; }
+  .hero :before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 144px;
+    top: 0px;
+    left: 0px;
+    background-color: #2F195F; }
+  .hero .hero-image {
     display: flex;
     height: 100%;
-    width: 90%; }
+    width: 100%;
+    max-width: 1440px;
+    background-image: url("../img/hero1440.png");
+    background-position: center;
+    background-size: cover; }
 
 .empty {
   height: 50px;
   width: 100vw;
-  background-color: steelblue; }
+  background-color: white; }
 
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
