@@ -1,63 +1,11 @@
-// .hero {
-//   display: flex;
-//   height: 720px;
-//   width: 100vw;
-//   max-width: 1440px;
-//   justify-content: flex-start;
-//   position: relative;
-//   z-index: -2;
-  // :before {
-  //   content: "";
-  //   position: absolute;
-  //   height: 100%;
-  //   width: 144px;
-  //   top: 0px;
-  //   left: 0px;
-  //   background-color: #2F195F;
-  //   z-index: -1;
-  //   @media only screen and (1030px) {
-  //     bottom: 30px;
-  //     left: 50px;
-  //   }
-  // }
-  // .nav {
-  //   display: flex;
-  //   flex-direction: column;
-  //   align-items: center;
-  //   justify-content: space-between;
-  //   height: 100%;
-  //   width: 144px;
-  //
-  //   z-index: 1;
-  //   li {
-  //     text-decoration: none;
-  //     color: #D8BFAA;
-  //
-  //   }
-  // }
-
-  // .hero-image {
-  //   display: flex;
-  //   height: 100%;
-  //   width: 100%;
-  //   max-width: 1440px;
-  //   background-image: url('../img/hero1440.png');
-  //   background-position: center;
-  //   background-size: cover;
-  //   z-index: -2;
-  //   @media only screen and (max-width: 1030px) {
-  //     background-position: 75% 0%;
-  //   }
-  // }
-
 .hero {
   display: flex;
-  height: 720px;
+  height: 100vh;
   width: 100vw;
-  max-width: 1440px;
+  // max-width: 1440px;
   justify-content: flex-start;
   align-items: flex-start;
-  background-image: url('../img/hero1440.png');
+  background-image: url('../img/herodoubleoverlay.png');
   background-position: center;
   background-size: cover;
   @media only screen and (max-width: 1030px) {
@@ -75,15 +23,14 @@
       display: flex;
       flex-direction: column;
       justify-content: space-around;
-      // align-items: center;
       height: 60%;
       margin-top: 40px;
     }
     li {
       text-decoration: none;
       color: #D8BFAA;
-      font-size: 30px;
-      font-family: 'Hiragino Kaku Gothic Std', sans-serif;
+      font-size: 1.875em;
+      font-family: 'Roboto Condensed', sans-serif;
     }
   }
   .header {
@@ -100,7 +47,7 @@
     .first-name, .last-name {
       display: flex;
       font-family: 'Comfortaa', cursive;
-      font-size: 84px;
+      // font-size: 84px;
       color: #BFD1E5;
     }
   }
