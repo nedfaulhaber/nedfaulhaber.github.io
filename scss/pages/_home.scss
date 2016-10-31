@@ -74,10 +74,11 @@ body {
   justify-content: space-around;
   align-items: center;
   color: #2F195F;
-  font-family: 'Comfortaa', cursive;
-  margin: 1em;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  margin: 1em 1em 3.5em;
   .separator-line {
-    height: .10em;
+    height: .075em;
     width: 35%;
     margin: .5em;
     background-color: #2F195F;
@@ -86,4 +87,32 @@ body {
     white-space: nowrap;
     overflow: none;
   }
+}
+
+.bach-to-tupac {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  height: 48em;
+}
+
+.btt-image {
+  margin-left: 2em;
+  img {
+    height: auto;
+    width: 100%;
+    border-radius: .75em;
+
+  }
+}
+.project-title {
+  color: black;
+  height: 60%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  font-family: 'Roboto Condensed', sans-serif;
+  margin: 0 4em;
 }
