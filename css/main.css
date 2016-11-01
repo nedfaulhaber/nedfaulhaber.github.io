@@ -1,5 +1,5 @@
 body {
-  background-color: #ECECEC; }
+  background-color: #E4E2E2; }
 
 .hero {
   display: flex;
@@ -80,24 +80,50 @@ body {
   justify-content: space-between;
   width: 100vw;
   height: 48em; }
-
-.btt-image {
-  margin-left: 2em; }
-  .btt-image img {
-    height: auto;
-    width: 100%;
-    border-radius: .75em; }
-
-.project-title {
-  color: black;
-  height: 60%;
-  width: 30%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  font-family: 'Roboto Condensed', sans-serif;
-  margin: 0 4em; }
+  .bach-to-tupac:hover #dark-vanilla {
+    transform: translateX(7.75em);
+    transition: all 1s ease-out; }
+  .bach-to-tupac .btt-image {
+    margin-left: 2em; }
+    .bach-to-tupac .btt-image img {
+      height: auto;
+      width: 100%;
+      border-radius: .75em; }
+  .bach-to-tupac .project-title {
+    color: black;
+    height: 60%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 4em; }
+    .bach-to-tupac .project-title .colors-bar {
+      width: 17.188em;
+      height: .75em;
+      margin-bottom: .5em; }
+      .bach-to-tupac .project-title .colors-bar .color {
+        display: inline-block;
+        width: 1.75em;
+        height: 100%; }
+      .bach-to-tupac .project-title .colors-bar #violet {
+        background-color: #2F195F; }
+      .bach-to-tupac .project-title .colors-bar #buff {
+        background-color: #F2D492; }
+      .bach-to-tupac .project-title .colors-bar #aqua {
+        background-color: #BFD1E5; }
+      .bach-to-tupac .project-title .colors-bar #antiflash-white {
+        background-color: #EBF5EE; }
+      .bach-to-tupac .project-title .colors-bar #dark-vanilla {
+        background-color: #D8BFAA; }
+    .bach-to-tupac .project-title .tools-used {
+      display: flex;
+      width: 17.188em;
+      justify-content: center;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 300;
+      letter-spacing: .2em;
+      margin-top: 1em; }
 
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
@@ -165,8 +191,7 @@ h3 {
   line-height: 1.4; }
 
 h4 {
-  font-size: 1.5em;
-  font-family: 'Open Sans', sans-serif; }
+  font-size: 1.5em; }
 
 *,
 *::before,
