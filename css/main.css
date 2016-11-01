@@ -81,8 +81,17 @@ body {
   width: 100vw;
   height: 48em; }
   .bach-to-tupac:hover #dark-vanilla {
-    transform: translateX(7.75em);
-    transition: all 1s ease-out; }
+    transition: all .75s ease-out;
+    transform: translateX(7.4em); }
+  .bach-to-tupac:hover #antiflash-white {
+    transition: all .75s ease-out;
+    transform: translateX(5.525em); }
+  .bach-to-tupac:hover #pale-aqua {
+    transition: all .75s ease-out;
+    transform: translateX(3.65em); }
+  .bach-to-tupac:hover #buff {
+    transition: all .75s ease-out;
+    transform: translateX(1.775em); }
   .bach-to-tupac .btt-image {
     margin-left: 2em; }
     .bach-to-tupac .btt-image img {
@@ -99,7 +108,7 @@ body {
     align-items: flex-start;
     margin: 0 4em; }
     .bach-to-tupac .project-title .colors-bar {
-      width: 17.188em;
+      width: 17.146em;
       height: .75em;
       margin-bottom: .5em; }
       .bach-to-tupac .project-title .colors-bar .color {
@@ -110,12 +119,15 @@ body {
         background-color: #2F195F; }
       .bach-to-tupac .project-title .colors-bar #buff {
         background-color: #F2D492; }
-      .bach-to-tupac .project-title .colors-bar #aqua {
+      .bach-to-tupac .project-title .colors-bar #pale-aqua {
         background-color: #BFD1E5; }
       .bach-to-tupac .project-title .colors-bar #antiflash-white {
         background-color: #EBF5EE; }
       .bach-to-tupac .project-title .colors-bar #dark-vanilla {
         background-color: #D8BFAA; }
+    .bach-to-tupac .project-title h2 {
+      white-space: nowrap;
+      overflow: none; }
     .bach-to-tupac .project-title .tools-used {
       display: flex;
       width: 17.188em;
