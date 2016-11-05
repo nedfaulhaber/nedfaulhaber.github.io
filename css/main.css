@@ -80,7 +80,12 @@ body {
   justify-content: space-between;
   align-items: center;
   width: 100vw;
-  height: 48em; }
+  height: 48em;
+  position: relative; }
+  .bach-to-tupac .dropdown-content {
+    opacity: 0;
+    position: absolute;
+    background-color: #E4E2E2; }
   .bach-to-tupac:hover #dark-vanilla {
     transition: all .75s ease-out;
     transform: translateX(7.4em); }
@@ -93,13 +98,17 @@ body {
   .bach-to-tupac:hover #buff {
     transition: all .75s ease-out;
     transform: translateX(1.775em); }
+  .bach-to-tupac:hover .dropdown-content {
+    opacity: 1;
+    transition: all .5s ease 1s;
+    transform: translateY(3em); }
   .bach-to-tupac .btt-image {
     margin-left: 2em; }
     .bach-to-tupac .btt-image img {
       height: auto;
       width: 100%;
       border-radius: .75em; }
-  .bach-to-tupac .project-title {
+  .bach-to-tupac .project {
     color: black;
     height: 30%;
     width: 30%;
@@ -107,38 +116,30 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+    position: relative;
     margin: 0 4em; }
-    .bach-to-tupac .project-title .colors-bar {
+    .bach-to-tupac .project .colors-bar {
       width: 17.146em;
       height: .75em;
       margin-bottom: .5em; }
-      .bach-to-tupac .project-title .colors-bar .color {
+      .bach-to-tupac .project .colors-bar .color {
         display: inline-block;
         width: 1.75em;
         height: 100%; }
-      .bach-to-tupac .project-title .colors-bar #violet {
+      .bach-to-tupac .project .colors-bar #violet {
         background-color: #2F195F; }
-      .bach-to-tupac .project-title .colors-bar #buff {
+      .bach-to-tupac .project .colors-bar #buff {
         background-color: #F2D492; }
-      .bach-to-tupac .project-title .colors-bar #pale-aqua {
+      .bach-to-tupac .project .colors-bar #pale-aqua {
         background-color: #BFD1E5; }
-      .bach-to-tupac .project-title .colors-bar #antiflash-white {
+      .bach-to-tupac .project .colors-bar #antiflash-white {
         background-color: #EBF5EE; }
-      .bach-to-tupac .project-title .colors-bar #dark-vanilla {
+      .bach-to-tupac .project .colors-bar #dark-vanilla {
         background-color: #D8BFAA; }
-    .bach-to-tupac .project-title .dropdown-link {
+    .bach-to-tupac .project .title {
       white-space: nowrap;
-      overflow: none;
-      position: relative; }
-      .bach-to-tupac .project-title .dropdown-link .dropdown-content {
-        display: none;
-        position: absolute;
-        background-color: #E4E2E2; }
-      .bach-to-tupac .project-title .dropdown-link:hover .dropdown-content {
-        display: block; }
-      .bach-to-tupac .project-title .dropdown-link:hover .tools-used {
-        display: none; }
-    .bach-to-tupac .project-title .tools-used {
+      overflow: none; }
+    .bach-to-tupac .project .tools-used {
       display: flex;
       width: 17.188em;
       justify-content: center;
