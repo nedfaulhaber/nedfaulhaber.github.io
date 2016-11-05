@@ -92,6 +92,7 @@ body {
 .bach-to-tupac {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 100vw;
   height: 48em;
   &:hover {
@@ -122,11 +123,11 @@ body {
   }
   .project-title {
     color: black;
-    height: 60%;
+    height: 30%;
     width: 30%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
     margin: 0 4em;
     .colors-bar {
@@ -154,9 +155,21 @@ body {
         background-color: #D8BFAA;
       }
     }
-    h2 {
+    .dropdown-link {
       white-space: nowrap;
       overflow: none;
+      position: relative;
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #E4E2E2;
+      }
+      &:hover .dropdown-content {
+        display: block;
+      }
+      &:hover .tools-used {
+        display: none;
+      }
     }
     .tools-used {
       display: flex;
