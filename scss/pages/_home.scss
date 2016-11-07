@@ -6,7 +6,6 @@ body {
   display: flex;
   height: 100vh;
   width: 100vw;
-  // max-width: 1440px;
   justify-content: flex-start;
   align-items: flex-start;
   background-image: url('../img/herodoubleoverlay.png');
@@ -34,7 +33,6 @@ body {
       text-decoration: none;
       color: #D8BFAA;
       font-size: 1.875em;
-      font-family: 'Roboto Condensed', sans-serif;
     }
   }
   .header {
@@ -69,7 +67,7 @@ body {
   text-align: center;
 }
 
-.projects {
+.projects-header {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -99,7 +97,6 @@ body {
   .dropdown-content {
     opacity: 0;
     position: absolute;
-    background-color: #E4E2E2;
   }
   &:hover {
     #dark-vanilla {
@@ -121,7 +118,7 @@ body {
     .dropdown-content {
       opacity: 1;
       transition: all .5s ease 1s;
-      transform: translateY(3em);
+      transform: translateY(3.5em);
     }
   }
   .btt-image {
@@ -170,14 +167,32 @@ body {
     .title {
       white-space: nowrap;
       overflow: none;
+      .dropdown-content {
+        display: flex;
+        width: 17.188em;
+        height: 5.8em;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        background-color: #E4E2E2;
+        p {
+          overflow-x: visible;
+          white-space: normal;
+        }
+        h5 {
+          // letter-spacing: normal;
+          // font-weight: 400;
+          color: #2F195F;
+        }
+      }
     }
     .tools-used {
       display: flex;
       width: 17.188em;
       justify-content: center;
-      font-family: 'Open Sans', sans-serif;
-      font-weight: 300;
-      letter-spacing: .2em;
+      // font-family: 'Open Sans', sans-serif;
+      // font-weight: 300;
+      // letter-spacing: .2em;
       margin-top: 1em;
     }
   }
