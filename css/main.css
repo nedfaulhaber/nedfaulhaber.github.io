@@ -77,9 +77,9 @@ body {
 .bach-to-tupac {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   width: 100vw;
-  height: 48em;
+  height: auto;
   position: relative; }
   .bach-to-tupac .dropdown-content {
     opacity: 0;
@@ -104,7 +104,7 @@ body {
     margin-left: 2em; }
     .bach-to-tupac .btt-image img {
       height: auto;
-      width: 100%;
+      width: 54vw;
       border-radius: .75em; }
   .bach-to-tupac .project {
     color: black;
@@ -115,7 +115,7 @@ body {
     justify-content: flex-start;
     align-items: flex-start;
     position: relative;
-    margin: 0 4em; }
+    margin: 10em 3.75em 0 3.5em; }
     .bach-to-tupac .project .colors-bar {
       width: 17.146em;
       height: .75em;
@@ -148,8 +148,11 @@ body {
         .bach-to-tupac .project .title .dropdown-content p {
           overflow-x: visible;
           white-space: normal; }
-        .bach-to-tupac .project .title .dropdown-content h5 {
-          color: #2F195F; }
+        .bach-to-tupac .project .title .dropdown-content a {
+          color: #2F195F;
+          text-decoration: none; }
+          .bach-to-tupac .project .title .dropdown-content a:hover {
+            color: #D8BFAA; }
     .bach-to-tupac .project .tools-used {
       display: flex;
       width: 17.188em;

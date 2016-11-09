@@ -90,9 +90,9 @@ body {
 .bach-to-tupac {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   width: 100vw;
-  height: 48em;
+  height: auto;
   position: relative;
   .dropdown-content {
     opacity: 0;
@@ -125,7 +125,7 @@ body {
     margin-left: 2em;
     img {
       height: auto;
-      width: 100%;
+      width: 54vw;
       border-radius: .75em;
     }
   }
@@ -138,7 +138,7 @@ body {
     justify-content: flex-start;
     align-items: flex-start;
     position: relative;
-    margin: 0 4em;
+    margin: 10em 3.75em 0 3.5em;
     .colors-bar {
       width: 17.146em;
       height: .75em;
@@ -179,10 +179,12 @@ body {
           overflow-x: visible;
           white-space: normal;
         }
-        h5 {
-          // letter-spacing: normal;
-          // font-weight: 400;
+        a {
           color: #2F195F;
+          text-decoration: none;
+          &:hover {
+            color: #D8BFAA;
+          }
         }
       }
     }
@@ -190,9 +192,6 @@ body {
       display: flex;
       width: 17.188em;
       justify-content: center;
-      // font-family: 'Open Sans', sans-serif;
-      // font-weight: 300;
-      // letter-spacing: .2em;
       margin-top: 1em;
     }
   }
