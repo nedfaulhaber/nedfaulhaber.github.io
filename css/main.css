@@ -126,10 +126,17 @@ body {
   align-items: flex-start;
   width: 100vw;
   height: auto;
-  position: relative; }
+  position: relative;
+  margin-bottom: 10em; }
   .bach-to-tupac .dropdown-content {
     opacity: 0;
     position: absolute; }
+  .bach-to-tupac .btt-image {
+    margin-left: 2em; }
+    .bach-to-tupac .btt-image img {
+      height: auto;
+      width: 54vw;
+      border-radius: .75em; }
   .bach-to-tupac:hover #dark-vanilla {
     transition: all .75s ease-out;
     transform: translateX(7.4em); }
@@ -146,12 +153,6 @@ body {
     opacity: 1;
     transition: all .5s ease 1s;
     transform: translateY(3.5em); }
-  .bach-to-tupac .btt-image {
-    margin-left: 2em; }
-    .bach-to-tupac .btt-image img {
-      height: auto;
-      width: 54vw;
-      border-radius: .75em; }
   .bach-to-tupac .project {
     color: black;
     height: 30%;
@@ -200,6 +201,92 @@ body {
           .bach-to-tupac .project .title .dropdown-content a:hover {
             color: #D8BFAA; }
     .bach-to-tupac .project .tools-used {
+      display: flex;
+      width: 17.188em;
+      justify-content: center;
+      margin-top: 1em; }
+
+.bjork {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100vw;
+  height: auto;
+  position: relative; }
+  .bjork .dropdown-content {
+    opacity: 0;
+    position: absolute; }
+  .bjork .bjork-image {
+    margin-left: 2em; }
+    .bjork .bjork-image img {
+      height: auto;
+      width: 85vw;
+      border-radius: .75em; }
+  .bjork:hover #dark-vanilla {
+    transition: all .75s ease-out;
+    transform: translateX(7.4em); }
+  .bjork:hover #antiflash-white {
+    transition: all .75s ease-out;
+    transform: translateX(5.525em); }
+  .bjork:hover #pale-aqua {
+    transition: all .75s ease-out;
+    transform: translateX(3.65em); }
+  .bjork:hover #buff {
+    transition: all .75s ease-out;
+    transform: translateX(1.775em); }
+  .bjork:hover .dropdown-content {
+    opacity: 1;
+    transition: all .5s ease 1s;
+    transform: translateY(3.5em); }
+  .bjork .project {
+    color: black;
+    height: 30%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+    margin: 10em 3.75em 0 3.5em; }
+    .bjork .project .colors-bar {
+      width: 17.146em;
+      height: .75em;
+      margin-bottom: .5em; }
+      .bjork .project .colors-bar .color {
+        display: inline-block;
+        width: 1.75em;
+        height: 100%; }
+      .bjork .project .colors-bar #violet {
+        background-color: #2F195F; }
+      .bjork .project .colors-bar #buff {
+        background-color: #F2D492; }
+      .bjork .project .colors-bar #pale-aqua {
+        background-color: #BFD1E5; }
+      .bjork .project .colors-bar #antiflash-white {
+        background-color: #EBF5EE; }
+      .bjork .project .colors-bar #dark-vanilla {
+        background-color: #D8BFAA; }
+    .bjork .project .title {
+      white-space: nowrap;
+      overflow: none; }
+      .bjork .project .title .dropdown-content {
+        display: flex;
+        width: 17.188em;
+        height: 5.8em;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        background-color: #E4E2E2; }
+        .bjork .project .title .dropdown-content p {
+          overflow-x: visible;
+          white-space: normal; }
+        .bjork .project .title .dropdown-content a {
+          color: #2F195F;
+          text-decoration: none; }
+          .bjork .project .title .dropdown-content a:hover {
+            color: #D8BFAA; }
+    .bjork .project .tools-used {
       display: flex;
       width: 17.188em;
       justify-content: center;
