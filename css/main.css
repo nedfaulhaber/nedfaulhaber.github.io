@@ -49,9 +49,9 @@ body {
     @media screen and (min-width: 2450px) {
       .hero .header {
         width: 38.625em; } }
-    @media screen and (min-width: 2695px) {
+    @media screen and (min-width: 2560px) {
       .hero .header {
-        width: 37%; } }
+        width: 42%; } }
     .hero .header .name {
       height: 10.5em;
       width: 100%;
@@ -82,7 +82,7 @@ body {
           justify-content: space-between; }
           .hero .header .name .first-name {
             align-self: flex-end; } }
-      @media screen and (min-width: 2695px) {
+      @media screen and (min-width: 2560px) {
         .hero .header .name {
           height: 10.5em;
           width: 100%;
@@ -289,7 +289,7 @@ p {
 @media screen and (min-width: 1800px) {
   html {
     font-size: 1.5em; } }
-@media screen and (min-width: 2695px) {
+@media screen and (min-width: 2560px) {
   html {
     font-size: 2em; } }
 *,
