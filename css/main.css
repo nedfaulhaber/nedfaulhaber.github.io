@@ -1,10 +1,15 @@
 body {
   background-color: #E4E2E2; }
 
+.wrapper {
+  max-width: 5120px;
+  max-height: 2880px;
+  margin: 0 auto; }
+
 .hero {
   display: flex;
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   justify-content: flex-start;
   align-items: flex-start;
   background-image: url("../img/herodoubleoverlay.png");
@@ -52,6 +57,18 @@ body {
     @media screen and (min-width: 2560px) {
       .hero .header {
         width: 42%; } }
+    @media screen and (min-width: 2850px) {
+      .hero .header {
+        width: 38.625em; } }
+    @media screen and (min-width: 3250px) {
+      .hero .header {
+        width: 37%; } }
+    @media screen and (min-width: 4050px) {
+      .hero .header {
+        width: 38.625em; } }
+    @media screen and (min-width: 4550px) {
+      .hero .header {
+        width: 37%; } }
     .hero .header .name {
       height: 10.5em;
       width: 100%;
@@ -83,6 +100,36 @@ body {
           .hero .header .name .first-name {
             align-self: flex-end; } }
       @media screen and (min-width: 2560px) {
+        .hero .header .name {
+          height: 10.5em;
+          width: 100%;
+          flex-direction: column;
+          align-items: flex-end; }
+          .hero .header .name .first-name {
+            align-self: flex-start; } }
+      @media screen and (min-width: 2850px) {
+        .hero .header .name {
+          flex-direction: row;
+          align-items: flex-end;
+          justify-content: space-between; }
+          .hero .header .name .first-name {
+            align-self: flex-end; } }
+      @media screen and (min-width: 3250px) {
+        .hero .header .name {
+          height: 10.5em;
+          width: 100%;
+          flex-direction: column;
+          align-items: flex-end; }
+          .hero .header .name .first-name {
+            align-self: flex-start; } }
+      @media screen and (min-width: 4050px) {
+        .hero .header .name {
+          flex-direction: row;
+          align-items: flex-end;
+          justify-content: space-between; }
+          .hero .header .name .first-name {
+            align-self: flex-end; } }
+      @media screen and (min-width: 4550px) {
         .hero .header .name {
           height: 10.5em;
           width: 100%;
@@ -380,6 +427,12 @@ p {
 @media screen and (min-width: 2560px) {
   html {
     font-size: 2em; } }
+@media screen and (min-width: 3250px) {
+  html {
+    font-size: 2.5em; } }
+@media screen and (min-width: 4550px) {
+  html {
+    font-size: 3.5em; } }
 *,
 *::before,
 *::after {

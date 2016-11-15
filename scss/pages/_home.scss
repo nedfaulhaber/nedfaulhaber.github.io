@@ -2,10 +2,16 @@ body {
   background-color: #E4E2E2;
 }
 
+.wrapper {
+  max-width: 5120px;
+  max-height: 2880px;
+  margin: 0 auto;
+}
+
 .hero {
   display: flex;
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   justify-content: flex-start;
   align-items: flex-start;
   background-image: url('../img/herodoubleoverlay.png');
@@ -56,6 +62,19 @@ body {
     @media screen and (min-width: 2560px) {
       width: 42%;
     }
+    @media screen and (min-width: 2850px) {
+      width: 38.625em;
+    }
+    @media screen and (min-width: 3250px) {
+      width: 37%;
+    }
+    @media screen and (min-width: 4050px) {
+      width: 38.625em;
+    }
+    @media screen and (min-width: 4550px) {
+      width: 37%;
+    }
+
     .name {
       height: 10.5em;
       width: 100%;
@@ -91,6 +110,40 @@ body {
         }
       }
       @media screen and (min-width: 2560px) {
+      height: 10.5em;
+      width: 100%;
+      flex-direction: column;
+      .first-name {
+        align-self: flex-start;
+      }
+      align-items: flex-end;
+      }
+      @media screen and (min-width: 2850px) {
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: space-between;
+        .first-name {
+          align-self: flex-end;
+        }
+      }
+      @media screen and (min-width: 3250px) {
+      height: 10.5em;
+      width: 100%;
+      flex-direction: column;
+      .first-name {
+        align-self: flex-start;
+      }
+      align-items: flex-end;
+      }
+      @media screen and (min-width: 4050px) {
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: space-between;
+        .first-name {
+          align-self: flex-end;
+        }
+      }
+      @media screen and (min-width: 4550px) {
       height: 10.5em;
       width: 100%;
       flex-direction: column;
