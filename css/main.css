@@ -127,16 +127,10 @@ body {
   width: 100vw;
   height: auto;
   position: relative;
-  margin-bottom: 10em; }
+  margin-bottom: 6em; }
   .bach-to-tupac .dropdown-content {
     opacity: 0;
     position: absolute; }
-  .bach-to-tupac .btt-image {
-    margin-left: 2em; }
-    .bach-to-tupac .btt-image img {
-      height: auto;
-      width: 54vw;
-      border-radius: .75em; }
   .bach-to-tupac:hover #dark-vanilla {
     transition: all .75s ease-out;
     transform: translateX(7.4em); }
@@ -153,6 +147,12 @@ body {
     opacity: 1;
     transition: all .5s ease 1s;
     transform: translateY(3.5em); }
+  .bach-to-tupac .btt-image {
+    margin-left: 2em; }
+    .bach-to-tupac .btt-image img {
+      height: auto;
+      width: 54vw;
+      border-radius: .75em; }
   .bach-to-tupac .project {
     color: black;
     height: 30%;
@@ -210,7 +210,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
   width: 100vw;
   height: auto;
   position: relative; }
@@ -225,21 +225,22 @@ body {
       border-radius: .75em; }
   .bjork:hover #dark-vanilla {
     transition: all .75s ease-out;
-    transform: translateX(7.4em); }
+    transform: translateX(23.063em); }
   .bjork:hover #antiflash-white {
     transition: all .75s ease-out;
-    transform: translateX(5.525em); }
+    transform: translateX(17.563em); }
   .bjork:hover #pale-aqua {
     transition: all .75s ease-out;
-    transform: translateX(3.65em); }
+    transform: translateX(12.063em); }
   .bjork:hover #buff {
     transition: all .75s ease-out;
-    transform: translateX(1.775em); }
+    transform: translateX(6em); }
   .bjork:hover .dropdown-content {
     opacity: 1;
     transition: all .5s ease 1s;
     transform: translateY(3.5em); }
   .bjork .project {
+    align-self: flex-start;
     color: black;
     height: 30%;
     width: 30%;
@@ -248,7 +249,7 @@ body {
     justify-content: flex-start;
     align-items: flex-start;
     position: relative;
-    margin: 10em 3.75em 0 3.5em; }
+    margin: 2em 3.75em 10em 12em; }
     .bjork .project .colors-bar {
       width: 17.146em;
       height: .75em;
@@ -272,8 +273,8 @@ body {
       overflow: none; }
       .bjork .project .title .dropdown-content {
         display: flex;
-        width: 17.188em;
-        height: 5.8em;
+        width: 32.875em;
+        height: 4.8em;
         flex-direction: column;
         justify-content: space-between;
         text-align: center;
@@ -288,7 +289,7 @@ body {
             color: #D8BFAA; }
     .bjork .project .tools-used {
       display: flex;
-      width: 17.188em;
+      width: 32.875em;
       justify-content: center;
       margin-top: 1em; }
 
