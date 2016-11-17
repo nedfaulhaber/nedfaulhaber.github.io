@@ -26,6 +26,9 @@ body {
   @media screen and (max-width: 955px) {
     background-position: 65% 0%;
   }
+  @media screen and (max-width: 852px) {
+    background-position: 80% 100%;
+  }
   .nav {
     display: flex;
     flex-direction: column;
@@ -63,8 +66,9 @@ body {
     margin: 1em 1.25em 0 0;
     color: #BFD1E5;
     @media screen and (max-width: 852px) {
-      margin-top: 15%;
+      margin-top: 10%;
       justify-content: flex-start;
+      width: 47%;
     }
     @media screen and (min-width: 1600px) {
       width: 38.625em;
@@ -545,6 +549,11 @@ body {
       justify-content: center;
       margin-top: 1em;
     }
+  }
+  @media screen and (max-width: 852px) {
+    flex-direction: column;
+    align-items: center;
+    height: 35em;
   }
 }
 
