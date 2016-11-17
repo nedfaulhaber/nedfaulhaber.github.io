@@ -15,9 +15,15 @@ body {
   background-image: url("../img/herodoubleoverlay.png");
   background-position: center;
   background-size: cover; }
-  @media only screen and (max-width: 1030px) {
+  @media screen and (min-height: 1800px) {
     .hero {
-      background-position: 75% 0%; } }
+      background-position: 50% 25%; } }
+  @media screen and (max-width: 1135px) {
+    .hero {
+      background-position: 60% 0%; } }
+  @media screen and (max-width: 955px) {
+    .hero {
+      background-position: 65% 0%; } }
   .hero .nav {
     display: flex;
     flex-direction: column;
@@ -25,17 +31,23 @@ body {
     justify-content: flex-start;
     height: 100%;
     width: 15%;
-    margin-right: 125px; }
+    margin-right: 7.813em; }
+    @media screen and (max-width: 1135px) {
+      .hero .nav {
+        margin-right: 6.5em; } }
     .hero .nav ul {
       display: flex;
       flex-direction: column;
       justify-content: space-around;
       height: 60%;
-      margin-top: 40px; }
+      margin-top: 2.5em; }
     .hero .nav li {
       text-decoration: none;
       color: #D8BFAA;
       font-size: 1.875em; }
+      @media screen and (max-width: 852px) {
+        .hero .nav li {
+          font-size: 2em; } }
   .hero .header {
     display: flex;
     flex-direction: column;
@@ -45,6 +57,10 @@ body {
     justify-content: center;
     margin: 1em 1.25em 0 0;
     color: #BFD1E5; }
+    @media screen and (max-width: 852px) {
+      .hero .header {
+        margin-top: 15%;
+        justify-content: flex-start; } }
     @media screen and (min-width: 1600px) {
       .hero .header {
         width: 38.625em; } }
@@ -370,6 +386,12 @@ body {
     transform: translateY(3.5em); }
   .cart-modal .cart-modal-image {
     margin-left: 2em; }
+    @media screen and (max-width: 970px) {
+      .cart-modal .cart-modal-image {
+        margin-left: 1.5em; } }
+    @media screen and (max-width: 900px) {
+      .cart-modal .cart-modal-image {
+        margin-left: 1em; } }
     .cart-modal .cart-modal-image img {
       height: auto;
       width: 50vw;
@@ -384,6 +406,9 @@ body {
     align-items: flex-start;
     position: relative;
     margin: 2em 7.5em 0 3.5em; }
+    @media screen and (max-width: 970px) {
+      .cart-modal .project {
+        margin-right: 8em; } }
     .cart-modal .project .colors-bar {
       width: 17.146em;
       height: .75em;
@@ -429,6 +454,7 @@ body {
 
 .wireframes {
   display: flex;
+  flex-direction: row-reverse;
   justify-content: space-between;
   align-items: flex-start;
   width: 100%;
@@ -455,7 +481,7 @@ body {
     transition: all .5s ease 1s;
     transform: translateY(3.5em); }
   .wireframes .wireframes-images {
-    margin-left: 2em;
+    margin-right: 2em;
     display: flex;
     align-items: center; }
     .wireframes .wireframes-images img {
@@ -470,7 +496,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: center;
     position: relative;
     margin: 10em 3.75em 0 3.5em; }
     .wireframes .project .colors-bar {
@@ -576,9 +602,6 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-@font-face {
-  font-family: "Hiragino Kaku Gothic Std";
-  src: url("../fonts/Hiragino Kaku Gothic Std.ttf"); }
 html {
   font-size: 100%; }
 
@@ -610,6 +633,12 @@ p {
   font-weight: 300;
   line-height: 1.2em; }
 
+@media screen and (max-width: 1134px) {
+  html {
+    font-size: .75em; } }
+@media screen and (min-width: 1135px) {
+  html {
+    font-size: 1em; } }
 @media screen and (min-width: 1800px) {
   html {
     font-size: 1.5em; } }
