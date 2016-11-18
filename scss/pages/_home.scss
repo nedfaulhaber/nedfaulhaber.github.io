@@ -219,28 +219,34 @@ body {
   .dropdown-content {
     opacity: 0;
     position: absolute;
-  }
-  &:hover {
-    #dark-vanilla {
-      transition: all .75s ease-out;
-      transform: translateX(7.4em);
-    }
-    #antiflash-white {
-      transition: all .75s ease-out;
-      transform: translateX(5.525em);
-    }
-    #pale-aqua {
-      transition: all .75s ease-out;
-      transform: translateX(3.65em);
-    }
-    #buff {
-      transition: all .75s ease-out;
-      transform: translateX(1.775em);
-    }
-    .dropdown-content {
+    @media screen and (max-width: 1024px) {
       opacity: 1;
-      transition: all .5s ease 1s;
-      transform: translateY(3.5em);
+      margin-top: 4em;
+    }
+  }
+  @media screen and (min-width: 1025px) {
+    &:hover {
+      #dark-vanilla {
+        transition: all .75s ease-out;
+        transform: translateX(7.4em);
+      }
+      #antiflash-white {
+        transition: all .75s ease-out;
+        transform: translateX(5.525em);
+      }
+      #pale-aqua {
+        transition: all .75s ease-out;
+        transform: translateX(3.65em);
+      }
+      #buff {
+        transition: all .75s ease-out;
+        transform: translateX(1.775em);
+      }
+      .dropdown-content {
+        opacity: 1;
+        transition: all .5s ease 1s;
+        transform: translateY(3.5em);
+      }
     }
   }
   .btt-image {
@@ -269,6 +275,9 @@ body {
         display: inline-block;
         width: 1.75em;
         height: 100%;
+        @media screen and (max-width: 1024px) {
+          margin-right: 1.84em;
+        }
       }
       #violet {
         background-color: #2F195F;
@@ -284,6 +293,9 @@ body {
       }
       #dark-vanilla {
         background-color: #D8BFAA;
+        @media screen and (max-width: 1024px) {
+          margin: 0;
+        }
       }
     }
     .title {
