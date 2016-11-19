@@ -35,6 +35,9 @@ body {
     height: 100%;
     width: 15%;
     margin-right: 7.813em; }
+    @media screen and (max-width: 780px) {
+      .hero .nav {
+        justify-content: center; } }
     @media screen and (max-width: 1135px) {
       .hero .nav {
         margin-right: 6.5em; } }
@@ -51,6 +54,9 @@ body {
       @media screen and (max-width: 852px) {
         .hero .nav li {
           font-size: 2em; } }
+      @media screen and (max-width: 780px) {
+        .hero .nav li {
+          font-size: 2.5em; } }
   .hero .header {
     display: flex;
     flex-direction: column;
@@ -194,7 +200,7 @@ body {
   width: 100%;
   height: auto;
   position: relative;
-  margin-bottom: 6em; }
+  margin-bottom: 8em; }
   .bach-to-tupac .dropdown-content {
     opacity: 0;
     position: absolute; }
@@ -296,28 +302,33 @@ body {
   .bjork .dropdown-content {
     opacity: 0;
     position: absolute; }
+    @media screen and (max-width: 1024px) {
+      .bjork .dropdown-content {
+        opacity: 1;
+        margin-top: 3.5em; } }
   .bjork .bjork-image {
     margin-right: 2em; }
     .bjork .bjork-image img {
       height: auto;
       width: 85vw;
       border-radius: .75em; }
-  .bjork:hover #dark-vanilla {
-    transition: all .75s ease-out;
-    transform: translateX(23.063em); }
-  .bjork:hover #antiflash-white {
-    transition: all .75s ease-out;
-    transform: translateX(17.297em); }
-  .bjork:hover #pale-aqua {
-    transition: all .75s ease-out;
-    transform: translateX(11.416em); }
-  .bjork:hover #buff {
-    transition: all .75s ease-out;
-    transform: translateX(5.48em); }
-  .bjork:hover .dropdown-content {
-    opacity: 1;
-    transition: all .5s ease 1s;
-    transform: translateY(3.5em); }
+  @media screen and (min-width: 1025px) {
+    .bjork:hover #dark-vanilla {
+      transition: all .75s ease-out;
+      transform: translateX(23.063em); }
+    .bjork:hover #antiflash-white {
+      transition: all .75s ease-out;
+      transform: translateX(17.297em); }
+    .bjork:hover #pale-aqua {
+      transition: all .75s ease-out;
+      transform: translateX(11.416em); }
+    .bjork:hover #buff {
+      transition: all .75s ease-out;
+      transform: translateX(5.48em); }
+    .bjork:hover .dropdown-content {
+      opacity: 1;
+      transition: all .5s ease 1s;
+      transform: translateY(3.5em); } }
   .bjork .project {
     align-self: flex-start;
     color: black;
@@ -330,13 +341,16 @@ body {
     position: relative;
     margin: 3em 3.75em 10em 10em; }
     .bjork .project .colors-bar {
-      width: 17.146em;
+      width: 32.875em;
       height: .75em;
       margin-bottom: .5em; }
       .bjork .project .colors-bar .color {
         display: inline-block;
         width: 1.75em;
         height: 100%; }
+        @media screen and (max-width: 1024px) {
+          .bjork .project .colors-bar .color {
+            margin-right: 5.74em; } }
       .bjork .project .colors-bar #violet {
         background-color: #2F195F; }
       .bjork .project .colors-bar #buff {
@@ -347,6 +361,9 @@ body {
         background-color: #EBF5EE; }
       .bjork .project .colors-bar #dark-vanilla {
         background-color: #D8BFAA; }
+        @media screen and (max-width: 1024px) {
+          .bjork .project .colors-bar #dark-vanilla {
+            margin: 0; } }
     .bjork .project .title {
       white-space: nowrap;
       overflow: none; }
@@ -380,25 +397,33 @@ body {
   height: auto;
   position: relative;
   margin-bottom: 12em; }
+  @media screen and (max-width: 852px) {
+    .cart-modal {
+      margin-bottom: 16em; } }
   .cart-modal .dropdown-content {
     opacity: 0;
     position: absolute; }
-  .cart-modal:hover #dark-vanilla {
-    transition: all .75s ease-out;
-    transform: translateX(15.563em); }
-  .cart-modal:hover #antiflash-white {
-    transition: all .75s ease-out;
-    transform: translateX(11.672em); }
-  .cart-modal:hover #pale-aqua {
-    transition: all .75s ease-out;
-    transform: translateX(7.673em); }
-  .cart-modal:hover #buff {
-    transition: all .75s ease-out;
-    transform: translateX(3.66em); }
-  .cart-modal:hover .dropdown-content {
-    opacity: 1;
-    transition: all .5s ease 1s;
-    transform: translateY(3.5em); }
+    @media screen and (max-width: 1024px) {
+      .cart-modal .dropdown-content {
+        opacity: 1;
+        margin-top: 4em; } }
+  @media screen and (min-width: 1025px) {
+    .cart-modal:hover #dark-vanilla {
+      transition: all .75s ease-out;
+      transform: translateX(15.563em); }
+    .cart-modal:hover #antiflash-white {
+      transition: all .75s ease-out;
+      transform: translateX(11.672em); }
+    .cart-modal:hover #pale-aqua {
+      transition: all .75s ease-out;
+      transform: translateX(7.673em); }
+    .cart-modal:hover #buff {
+      transition: all .75s ease-out;
+      transform: translateX(3.66em); }
+    .cart-modal:hover .dropdown-content {
+      opacity: 1;
+      transition: all .5s ease 1s;
+      transform: translateY(3.5em); } }
   .cart-modal .cart-modal-image {
     margin-left: 2em; }
     @media screen and (max-width: 970px) {
@@ -411,6 +436,9 @@ body {
       height: auto;
       width: 50vw;
       border-radius: .75em; }
+      @media screen and (max-width: 852px) {
+        .cart-modal .cart-modal-image img {
+          width: 65vw; } }
   .cart-modal .project {
     color: black;
     height: 30%;
@@ -421,17 +449,23 @@ body {
     align-items: flex-start;
     position: relative;
     margin: 2em 7.5em 0 3.5em; }
+    @media screen and (max-width: 852px) {
+      .cart-modal .project {
+        margin-top: 3.5em; } }
     @media screen and (max-width: 970px) {
       .cart-modal .project {
         margin-right: 8em; } }
     .cart-modal .project .colors-bar {
-      width: 17.146em;
+      width: 25.375em;
       height: .75em;
       margin-bottom: .5em; }
       .cart-modal .project .colors-bar .color {
         display: inline-block;
         width: 1.75em;
         height: 100%; }
+        @media screen and (max-width: 1024px) {
+          .cart-modal .project .colors-bar .color {
+            margin-right: 3.9em; } }
       .cart-modal .project .colors-bar #violet {
         background-color: #2F195F; }
       .cart-modal .project .colors-bar #buff {
@@ -442,6 +476,9 @@ body {
         background-color: #EBF5EE; }
       .cart-modal .project .colors-bar #dark-vanilla {
         background-color: #D8BFAA; }
+        @media screen and (max-width: 1024px) {
+          .cart-modal .project .colors-bar #dark-vanilla {
+            margin: 0; } }
     .cart-modal .project .title {
       white-space: nowrap;
       overflow: none; }
@@ -484,22 +521,27 @@ body {
   .wireframes .dropdown-content {
     opacity: 0;
     position: absolute; }
-  .wireframes:hover #dark-vanilla {
-    transition: all .75s ease-out;
-    transform: translateX(4.625em); }
-  .wireframes:hover #antiflash-white {
-    transition: all .75s ease-out;
-    transform: translateX(3.469em); }
-  .wireframes:hover #pale-aqua {
-    transition: all .75s ease-out;
-    transform: translateX(2.289em); }
-  .wireframes:hover #buff {
-    transition: all .75s ease-out;
-    transform: translateX(1.15em); }
-  .wireframes:hover .dropdown-content {
-    opacity: 1;
-    transition: all .5s ease 1s;
-    transform: translateY(3.5em); }
+    @media screen and (max-width: 1024px) {
+      .wireframes .dropdown-content {
+        opacity: 1;
+        margin-top: 3.5em; } }
+  @media screen and (min-width: 1025px) {
+    .wireframes:hover #dark-vanilla {
+      transition: all .75s ease-out;
+      transform: translateX(4.625em); }
+    .wireframes:hover #antiflash-white {
+      transition: all .75s ease-out;
+      transform: translateX(3.469em); }
+    .wireframes:hover #pale-aqua {
+      transition: all .75s ease-out;
+      transform: translateX(2.289em); }
+    .wireframes:hover #buff {
+      transition: all .75s ease-out;
+      transform: translateX(1.15em); }
+    .wireframes:hover .dropdown-content {
+      opacity: 1;
+      transition: all .5s ease 1s;
+      transform: translateY(3.5em); } }
   .wireframes .wireframes-images {
     margin-right: 2em;
     display: flex;
@@ -527,6 +569,9 @@ body {
         display: inline-block;
         width: 1.75em;
         height: 100%; }
+        @media screen and (max-width: 1024px) {
+          .wireframes .project .colors-bar .color {
+            margin-right: 1.15em; } }
       .wireframes .project .colors-bar #violet {
         background-color: #2F195F; }
       .wireframes .project .colors-bar #buff {
@@ -537,6 +582,9 @@ body {
         background-color: #EBF5EE; }
       .wireframes .project .colors-bar #dark-vanilla {
         background-color: #D8BFAA; }
+        @media screen and (max-width: 1024px) {
+          .wireframes .project .colors-bar #dark-vanilla {
+            margin: 0; } }
     .wireframes .project .title {
       white-space: nowrap;
       overflow: none; }

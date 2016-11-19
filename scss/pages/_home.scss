@@ -34,6 +34,9 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+    @media screen and (max-width: 780px) {
+      justify-content: center;
+    }
     height: 100%;
     width: 15%;
     margin-right: 7.813em;
@@ -54,6 +57,10 @@ body {
       @media screen and (max-width: 852px) {
         font-size: 2em;
       }
+      @media screen and (max-width: 780px) {
+        font-size: 2.5em;
+      }
+
     }
   }
   .header {
@@ -207,7 +214,7 @@ body {
     overflow: none;
   }
 }
-
+//---------------------------------bach-to-tupac div-------------------------------------------------
 .bach-to-tupac {
   display: flex;
   justify-content: space-between;
@@ -215,7 +222,7 @@ body {
   width: 100%;
   height: auto;
   position: relative;
-  margin-bottom: 6em;
+  margin-bottom: 8em;
   .dropdown-content {
     opacity: 0;
     position: absolute;
@@ -330,7 +337,7 @@ body {
     }
   }
 }
-
+//----------------------bjork div------------------------------------------------------------
 .bjork {
   display: flex;
   flex-direction: column;
@@ -343,6 +350,10 @@ body {
   .dropdown-content {
     opacity: 0;
     position: absolute;
+    @media screen and (max-width: 1024px) {
+      opacity: 1;
+      margin-top: 3.5em;
+    }
   }
   .bjork-image {
     margin-right: 2em;
@@ -352,27 +363,29 @@ body {
       border-radius: .75em;
     }
   }
-  &:hover {
-    #dark-vanilla {
-      transition: all .75s ease-out;    //
-      transform: translateX(23.063em);  //added the difference between the two titles (526-275=251px) to 118px (7.4em)
-    }
-    #antiflash-white {                  //.75 of 23.063em (369px) = 17.297em (276px)
-      transition: all .75s ease-out;
-      transform: translateX(17.297em);
-    }
-    #pale-aqua {                        //.66 of 17.297em (276px) = 11.416em (178px)
-      transition: all .75s ease-out;
-      transform: translateX(11.416em);
-    }
-    #buff {                             //.48 of 11.416em (178px) = 5.48em (87px)
-      transition: all .75s ease-out;
-      transform: translateX(5.48em);
-    }
-    .dropdown-content {
-      opacity: 1;
-      transition: all .5s ease 1s;
-      transform: translateY(3.5em);
+  @media screen and (min-width: 1025px) {
+    &:hover {
+      #dark-vanilla {
+        transition: all .75s ease-out;    //
+        transform: translateX(23.063em);  //added the difference between the two titles (526-275=251px) to 118px (7.4em)
+      }
+      #antiflash-white {                  //.75 of 23.063em (369px) = 17.297em (276px)
+        transition: all .75s ease-out;
+        transform: translateX(17.297em);
+      }
+      #pale-aqua {                        //.66 of 17.297em (276px) = 11.416em (178px)
+        transition: all .75s ease-out;
+        transform: translateX(11.416em);
+      }
+      #buff {                             //.48 of 11.416em (178px) = 5.48em (87px)
+        transition: all .75s ease-out;
+        transform: translateX(5.48em);
+      }
+      .dropdown-content {
+        opacity: 1;
+        transition: all .5s ease 1s;
+        transform: translateY(3.5em);
+      }
     }
   }
   .project {
@@ -387,13 +400,16 @@ body {
     position: relative;
     margin: 3em 3.75em 10em 10em;
     .colors-bar {
-      width: 17.146em;
+      width: 32.875em;
       height: .75em;
       margin-bottom: .5em;
       .color {
         display: inline-block;
         width: 1.75em;
         height: 100%;
+        @media screen and (max-width: 1024px) {
+          margin-right: 5.74em;
+        }
       }
       #violet {
         background-color: #2F195F;
@@ -409,6 +425,9 @@ body {
       }
       #dark-vanilla {
         background-color: #D8BFAA;
+        @media screen and (max-width: 1024px) {
+          margin: 0;
+        }
       }
     }
     .title {
@@ -443,7 +462,7 @@ body {
     }
   }
 }
-
+//-------------------------------------cart-modal div----------------------------------
 .cart-modal {
   display: flex;
   justify-content: space-between;
@@ -452,31 +471,40 @@ body {
   height: auto;
   position: relative;
   margin-bottom: 12em;
+  @media screen and (max-width: 852px) {
+    margin-bottom: 16em;
+  }
   .dropdown-content {
     opacity: 0;
     position: absolute;
-  }
-  &:hover {
-    #dark-vanilla {
-      transition: all .75s ease-out;
-      transform: translateX(15.563em);
-    }
-    #antiflash-white {
-      transition: all .75s ease-out;
-      transform: translateX(11.672em);
-    }
-    #pale-aqua {
-      transition: all .75s ease-out;
-      transform: translateX(7.673em);
-    }
-    #buff {
-      transition: all .75s ease-out;
-      transform: translateX(3.66em);
-    }
-    .dropdown-content {
+    @media screen and (max-width: 1024px) {
       opacity: 1;
-      transition: all .5s ease 1s;
-      transform: translateY(3.5em);
+      margin-top: 4em;
+    }
+  }
+  @media screen and (min-width: 1025px) {
+    &:hover {
+      #dark-vanilla {
+        transition: all .75s ease-out;
+        transform: translateX(15.563em);
+      }
+      #antiflash-white {
+        transition: all .75s ease-out;
+        transform: translateX(11.672em);
+      }
+      #pale-aqua {
+        transition: all .75s ease-out;
+        transform: translateX(7.673em);
+      }
+      #buff {
+        transition: all .75s ease-out;
+        transform: translateX(3.66em);
+      }
+      .dropdown-content {
+        opacity: 1;
+        transition: all .5s ease 1s;
+        transform: translateY(3.5em);
+      }
     }
   }
   .cart-modal-image {
@@ -491,6 +519,9 @@ body {
       height: auto;
       width: 50vw;
       border-radius: .75em;
+      @media screen and (max-width: 852px) {
+        width: 65vw;
+      }
     }
   }
   .project {
@@ -503,17 +534,24 @@ body {
     align-items: flex-start;
     position: relative;
     margin: 2em 7.5em 0 3.5em;
+    @media screen and (max-width: 852px) {
+      margin-top: 3.5em;
+    }
     @media screen and (max-width: 970px) {
       margin-right: 8em;
     }
     .colors-bar {
-      width: 17.146em;
+      width: 25.375em;
       height: .75em;
       margin-bottom: .5em;
       .color {
         display: inline-block;
         width: 1.75em;
         height: 100%;
+        @media screen and (max-width: 1024px) {
+          margin-right: 3.9em;
+        }
+
       }
       #violet {
         background-color: #2F195F;
@@ -529,6 +567,9 @@ body {
       }
       #dark-vanilla {
         background-color: #D8BFAA;
+        @media screen and (max-width: 1024px) {
+          margin: 0;
+        }
       }
     }
     .title {
@@ -568,7 +609,7 @@ body {
     height: 35em;
   }
 }
-
+//------------------------------------------wireframes div---------------------------
 .wireframes {
   display: flex;
   flex-direction: row-reverse;
@@ -581,28 +622,34 @@ body {
   .dropdown-content {
     opacity: 0;
     position: absolute;
-  }
-  &:hover {
-    #dark-vanilla {
-      transition: all .75s ease-out;
-      transform: translateX(4.625em);
-    }
-    #antiflash-white {
-      transition: all .75s ease-out;
-      transform: translateX(3.469em);
-    }
-    #pale-aqua {
-      transition: all .75s ease-out;
-      transform: translateX(2.289em);
-    }
-    #buff {
-      transition: all .75s ease-out;
-      transform: translateX(1.15em);
-    }
-    .dropdown-content {
+    @media screen and (max-width: 1024px) {
       opacity: 1;
-      transition: all .5s ease 1s;
-      transform: translateY(3.5em);
+      margin-top: 3.5em;
+    }
+  }
+  @media screen and (min-width: 1025px) {
+    &:hover {
+      #dark-vanilla {
+        transition: all .75s ease-out;
+        transform: translateX(4.625em);
+      }
+      #antiflash-white {
+        transition: all .75s ease-out;
+        transform: translateX(3.469em);
+      }
+      #pale-aqua {
+        transition: all .75s ease-out;
+        transform: translateX(2.289em);
+      }
+      #buff {
+        transition: all .75s ease-out;
+        transform: translateX(1.15em);
+      }
+      .dropdown-content {
+        opacity: 1;
+        transition: all .5s ease 1s;
+        transform: translateY(3.5em);
+      }
     }
   }
   .wireframes-images {
@@ -634,6 +681,10 @@ body {
         display: inline-block;
         width: 1.75em;
         height: 100%;
+        @media screen and (max-width: 1024px) {
+          margin-right: 1.15em;
+        }
+
       }
       #violet {
         background-color: #2F195F;
@@ -649,6 +700,9 @@ body {
       }
       #dark-vanilla {
         background-color: #D8BFAA;
+        @media screen and (max-width: 1024px) {
+          margin: 0;
+        }
       }
     }
     .title {
