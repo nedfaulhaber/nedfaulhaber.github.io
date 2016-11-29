@@ -34,12 +34,12 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    @media screen and (max-width: 780px) {
-      justify-content: center;
-    }
     height: 100%;
     width: 15%;
     margin-right: 7.813em;
+    @media screen and (max-width: 780px) {
+      justify-content: center;
+    }
     @media screen and (max-width: 1135px) {
       margin-right: 6.5em;
     }
@@ -60,7 +60,6 @@ body {
       @media screen and (max-width: 780px) {
         font-size: 2.5em;
       }
-
     }
   }
   .header {
@@ -72,6 +71,10 @@ body {
     justify-content: center;
     margin: 1em 1.25em 0 0;
     color: #BFD1E5;
+    @media screen and (max-width: 670px) {
+      margin-top: 5%;
+      width: 55%;
+    }
     @media screen and (max-width: 852px) {
       margin-top: 10%;
       justify-content: flex-start;
@@ -109,6 +112,15 @@ body {
       align-items: flex-end;
       .first-name {
         align-self: flex-start;
+      }
+      @media screen and (max-width: 670px) {
+        height: 10.5em;
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-end;
+        .first-name {
+          align-self: flex-start;
+        }
       }
       @media screen and (min-width: 1600px) {
         flex-direction: row;
@@ -223,6 +235,10 @@ body {
   height: auto;
   position: relative;
   margin-bottom: 8em;
+  @media screen and (max-width: 670px) {
+    flex-direction: column;
+    align-items: center;
+  }
   .dropdown-content {
     opacity: 0;
     position: absolute;
@@ -262,6 +278,9 @@ body {
       height: auto;
       width: 54vw;
       border-radius: .75em;
+      @media screen and (max-width: 670px) {
+        width: 94%;
+      }
     }
   }
   .project {
@@ -274,6 +293,9 @@ body {
     align-items: flex-start;
     position: relative;
     margin: 10em 3.75em 0 3.5em;
+    @media screen and (max-width: 670px) {
+      margin-top: 3em;
+    }
     .colors-bar {
       width: 17.146em;
       height: .75em;
@@ -347,6 +369,9 @@ body {
   height: auto;
   position: relative;
   margin-bottom: 6em;
+  @media screen and (max-width: 670px) {
+    margin-top: 15em;
+  }
   .dropdown-content {
     opacity: 0;
     position: absolute;
@@ -357,10 +382,17 @@ body {
   }
   .bjork-image {
     margin-right: 2em;
+    @media screen and (max-width: 670px) {
+      width: 94%;
+      margin-right: 0;
+    }
     img {
       height: auto;
       width: 85vw;
       border-radius: .75em;
+      @media screen and (max-width: 670px) {
+        width: 100%;
+      }
     }
   }
   @media screen and (min-width: 1025px) {
@@ -399,6 +431,10 @@ body {
     align-items: flex-start;
     position: relative;
     margin: 3em 3.75em 10em 10em;
+    @media screen and (max-width: 670px) {
+      align-self: center;
+      margin-left: 0;
+    }
     .colors-bar {
       width: 32.875em;
       height: .75em;

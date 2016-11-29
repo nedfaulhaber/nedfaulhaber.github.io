@@ -66,6 +66,10 @@ body {
     justify-content: center;
     margin: 1em 1.25em 0 0;
     color: #BFD1E5; }
+    @media screen and (max-width: 670px) {
+      .hero .header {
+        margin-top: 5%;
+        width: 55%; } }
     @media screen and (max-width: 852px) {
       .hero .header {
         margin-top: 10%;
@@ -103,6 +107,14 @@ body {
       align-items: flex-end; }
       .hero .header .name .first-name {
         align-self: flex-start; }
+      @media screen and (max-width: 670px) {
+        .hero .header .name {
+          height: 10.5em;
+          width: 100%;
+          flex-direction: column;
+          align-items: flex-end; }
+          .hero .header .name .first-name {
+            align-self: flex-start; } }
       @media screen and (min-width: 1600px) {
         .hero .header .name {
           flex-direction: row;
@@ -201,6 +213,10 @@ body {
   height: auto;
   position: relative;
   margin-bottom: 8em; }
+  @media screen and (max-width: 670px) {
+    .bach-to-tupac {
+      flex-direction: column;
+      align-items: center; } }
   .bach-to-tupac .dropdown-content {
     opacity: 0;
     position: absolute; }
@@ -231,6 +247,9 @@ body {
       height: auto;
       width: 54vw;
       border-radius: .75em; }
+      @media screen and (max-width: 670px) {
+        .bach-to-tupac .btt-image img {
+          width: 94%; } }
   .bach-to-tupac .project {
     color: black;
     height: 30%;
@@ -241,6 +260,9 @@ body {
     align-items: flex-start;
     position: relative;
     margin: 10em 3.75em 0 3.5em; }
+    @media screen and (max-width: 670px) {
+      .bach-to-tupac .project {
+        margin-top: 3em; } }
     .bach-to-tupac .project .colors-bar {
       width: 17.146em;
       height: .75em;
@@ -299,6 +321,9 @@ body {
   height: auto;
   position: relative;
   margin-bottom: 6em; }
+  @media screen and (max-width: 670px) {
+    .bjork {
+      margin-top: 15em; } }
   .bjork .dropdown-content {
     opacity: 0;
     position: absolute; }
@@ -308,10 +333,17 @@ body {
         margin-top: 3.5em; } }
   .bjork .bjork-image {
     margin-right: 2em; }
+    @media screen and (max-width: 670px) {
+      .bjork .bjork-image {
+        width: 94%;
+        margin-right: 0; } }
     .bjork .bjork-image img {
       height: auto;
       width: 85vw;
       border-radius: .75em; }
+      @media screen and (max-width: 670px) {
+        .bjork .bjork-image img {
+          width: 100%; } }
   @media screen and (min-width: 1025px) {
     .bjork:hover #dark-vanilla {
       transition: all .75s ease-out;
@@ -340,6 +372,10 @@ body {
     align-items: flex-start;
     position: relative;
     margin: 3em 3.75em 10em 10em; }
+    @media screen and (max-width: 670px) {
+      .bjork .project {
+        align-self: center;
+        margin-left: 0; } }
     .bjork .project .colors-bar {
       width: 32.875em;
       height: .75em;
