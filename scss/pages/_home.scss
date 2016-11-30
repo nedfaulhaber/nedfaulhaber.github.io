@@ -295,6 +295,7 @@ body {
     margin: 10em 3.75em 0 3.5em;
     @media screen and (max-width: 670px) {
       margin-top: 3em;
+      align-items: center;
     }
     .colors-bar {
       width: 17.146em;
@@ -432,8 +433,10 @@ body {
     position: relative;
     margin: 3em 3.75em 10em 10em;
     @media screen and (max-width: 670px) {
+      width: 70%;
+      margin: 3em 0 10em 0;
       align-self: center;
-      margin-left: 0;
+      align-items: center;
     }
     .colors-bar {
       width: 32.875em;
@@ -508,6 +511,8 @@ body {
   position: relative;
   margin-bottom: 12em;
   @media screen and (max-width: 852px) {
+    flex-direction: column;
+    align-items: center;
     margin-bottom: 16em;
   }
   .dropdown-content {
@@ -570,6 +575,11 @@ body {
     align-items: flex-start;
     position: relative;
     margin: 2em 7.5em 0 3.5em;
+    @media screen and (max-width: 670px) {
+      margin: 0;
+      align-items: center;
+      width: 70%;
+    }
     @media screen and (max-width: 852px) {
       margin-top: 3.5em;
     }

@@ -262,7 +262,8 @@ body {
     margin: 10em 3.75em 0 3.5em; }
     @media screen and (max-width: 670px) {
       .bach-to-tupac .project {
-        margin-top: 3em; } }
+        margin-top: 3em;
+        align-items: center; } }
     .bach-to-tupac .project .colors-bar {
       width: 17.146em;
       height: .75em;
@@ -374,8 +375,10 @@ body {
     margin: 3em 3.75em 10em 10em; }
     @media screen and (max-width: 670px) {
       .bjork .project {
+        width: 70%;
+        margin: 3em 0 10em 0;
         align-self: center;
-        margin-left: 0; } }
+        align-items: center; } }
     .bjork .project .colors-bar {
       width: 32.875em;
       height: .75em;
@@ -435,6 +438,8 @@ body {
   margin-bottom: 12em; }
   @media screen and (max-width: 852px) {
     .cart-modal {
+      flex-direction: column;
+      align-items: center;
       margin-bottom: 16em; } }
   .cart-modal .dropdown-content {
     opacity: 0;
@@ -485,6 +490,11 @@ body {
     align-items: flex-start;
     position: relative;
     margin: 2em 7.5em 0 3.5em; }
+    @media screen and (max-width: 670px) {
+      .cart-modal .project {
+        margin: 0;
+        align-items: center;
+        width: 70%; } }
     @media screen and (max-width: 852px) {
       .cart-modal .project {
         margin-top: 3.5em; } }
