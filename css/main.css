@@ -43,7 +43,7 @@ body {
         justify-content: center; } }
     @media screen and (max-width: 670px) {
       .hero .nav {
-        margin-right: 3em; } }
+        margin-right: 1em; } }
     .hero .nav ul {
       display: flex;
       flex-direction: column;
@@ -69,11 +69,6 @@ body {
     justify-content: center;
     margin: 1em 1.25em 0 0;
     color: #BFD1E5; }
-    @media screen and (max-width: 852px) {
-      .hero .header {
-        margin-top: 10%;
-        justify-content: flex-start;
-        width: 47%; } }
     @media screen and (min-width: 1600px) {
       .hero .header {
         width: 38.625em; } }
@@ -98,6 +93,14 @@ body {
     @media screen and (min-width: 4550px) {
       .hero .header {
         width: 37%; } }
+    @media screen and (max-width: 852px) {
+      .hero .header {
+        margin-top: 10%;
+        justify-content: flex-start;
+        width: 47%; } }
+    @media screen and (max-width: 670px) {
+      .hero .header {
+        width: 60%; } }
     .hero .header .name {
       height: 10.5em;
       width: 100%;
@@ -437,7 +440,7 @@ body {
   margin-bottom: 12em; }
   @media screen and (max-width: 670px) {
     .cart-modal {
-      margin-bottom: 35%; } }
+      margin-bottom: 18em; } }
   .cart-modal .dropdown-content {
     opacity: 0;
     position: absolute; }
@@ -504,7 +507,7 @@ body {
       .cart-modal .project {
         align-items: center;
         width: 70%;
-        margin: 3.5em 0 14em; } }
+        margin: 3.5em 0 0; } }
     .cart-modal .project .colors-bar {
       width: 25.375em;
       height: .75em;
@@ -572,7 +575,7 @@ body {
     .wireframes {
       flex-direction: column;
       align-items: center;
-      margin-bottom: 16em; } }
+      margin-bottom: 14em; } }
   .wireframes .dropdown-content {
     opacity: 0;
     position: absolute; }

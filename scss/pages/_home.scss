@@ -44,7 +44,7 @@ body {
       justify-content: center;
     }
     @media screen and (max-width: 670px) {
-      margin-right: 3em;
+      margin-right: 1em;
     }
     ul {
       display: flex;
@@ -74,11 +74,6 @@ body {
     justify-content: center;
     margin: 1em 1.25em 0 0;
     color: #BFD1E5;
-    @media screen and (max-width: 852px) {
-      margin-top: 10%;
-      justify-content: flex-start;
-      width: 47%;
-    }
     @media screen and (min-width: 1600px) {
       width: 38.625em;
     }
@@ -102,6 +97,14 @@ body {
     }
     @media screen and (min-width: 4550px) {
       width: 37%;
+    }
+    @media screen and (max-width: 852px) {
+      margin-top: 10%;
+      justify-content: flex-start;
+      width: 47%;
+    }
+    @media screen and (max-width: 670px) {
+      width: 60%;
     }
     .name {
       height: 10.5em;
@@ -510,7 +513,7 @@ body {
   position: relative;
   margin-bottom: 12em;
   @media screen and (max-width: 670px) {
-    margin-bottom: 35%;
+    margin-bottom: 18em;
   }
   .dropdown-content {
     opacity: 0;
@@ -588,7 +591,7 @@ body {
     @media screen and (max-width: 670px) {
       align-items: center;
       width: 70%;
-      margin: 3.5em 0 14em;
+      margin: 3.5em 0 0;
     }
     .colors-bar {
       width: 25.375em;
@@ -672,7 +675,7 @@ body {
   @media screen and (max-width: 670px) {
     flex-direction: column;
     align-items: center;
-    margin-bottom: 16em;
+    margin-bottom: 14em;
   }
   .dropdown-content {
     opacity: 0;
