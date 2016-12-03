@@ -50,16 +50,9 @@ body {
       justify-content: space-around;
       height: 60%;
       margin-top: 2.5em; }
-    .hero .nav li {
+    .hero .nav li a {
       text-decoration: none;
-      color: #D8BFAA;
-      font-size: 1.875em; }
-      @media screen and (max-width: 852px) {
-        .hero .nav li {
-          font-size: 2em; } }
-      @media screen and (max-width: 780px) {
-        .hero .nav li {
-          font-size: 2.5em; } }
+      color: #D8BFAA; }
   .hero .header {
     display: flex;
     flex-direction: column;
