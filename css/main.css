@@ -7,7 +7,7 @@ body {
   position: fixed;
   z-index: 1;
   top: 0;
-  left: 0;
+  right: 0;
   background-color: #111;
   overflow-x: hidden;
   transition: 0.5s;
@@ -22,16 +22,14 @@ body {
   .sidenav .sidenav .closebtn {
     position: absolute;
     top: 0;
-    right: 25px;
+    right: 0;
     font-size: 36px;
-    margin-left: 50px; }
+    margin-right: 50px; }
 
 #wrapper {
   max-width: 5120px;
-  margin: 0 auto;
   background-color: #E4E2E2;
-  transition: margin-left .5s;
-  padding: 16px; }
+  transition: .5s; }
 
 .hero {
   display: flex;
@@ -54,6 +52,17 @@ body {
   @media screen and (max-width: 852px) {
     .hero {
       background-position: 80% 100%; } }
+  @media screen and (max-width: 524px) {
+    .hero {
+      justify-content: space-between; } }
+  .hero span {
+    color: white;
+    margin: .5em .5em 0 0; }
+    @media screen and (min-width: 525px) {
+      .hero span {
+        display: none;
+        height: 0;
+        width: 0; } }
   .hero .nav {
     display: flex;
     flex-direction: column;
@@ -71,6 +80,11 @@ body {
     @media screen and (max-width: 670px) {
       .hero .nav {
         margin-right: 1em; } }
+    @media screen and (max-width: 524px) {
+      .hero .nav {
+        display: none;
+        height: 0;
+        width: 0; } }
     .hero .nav ul {
       display: flex;
       flex-direction: column;
@@ -121,6 +135,10 @@ body {
     @media screen and (max-width: 670px) {
       .hero .header {
         width: 60%; } }
+    @media screen and (max-width: 525px) {
+      .hero .header {
+        margin: 15% 0 0 10%;
+        width: 85%; } }
     .hero .header .name {
       height: 10.5em;
       width: 100%;
@@ -461,6 +479,12 @@ body {
   @media screen and (max-width: 670px) {
     .cart-modal {
       margin-bottom: 18em; } }
+  @media screen and (max-width: 525px) {
+    .cart-modal {
+      margin-bottom: 10em; } }
+  @media screen and (max-width: 415px) {
+    .cart-modal {
+      margin-bottom: 13em; } }
   .cart-modal .dropdown-content {
     opacity: 0;
     position: absolute; }
@@ -528,6 +552,9 @@ body {
         align-items: center;
         width: 70%;
         margin: 3.5em 0 0; } }
+    @media screen and (max-width: 475px) {
+      .cart-modal .project {
+        margin-bottom: 4em; } }
     .cart-modal .project .colors-bar {
       width: 25.375em;
       height: .75em;
@@ -650,7 +677,7 @@ body {
     margin: 10em 3.75em 0 3.5em; }
     @media screen and (max-width: 670px) {
       .wireframes .project {
-        margin-top: 3.5em; } }
+        margin-top: 5em; } }
     .wireframes .project .colors-bar {
       width: 14.438em;
       height: .75em;
@@ -809,6 +836,9 @@ p {
 @media screen and (min-width: 4550px) {
   html {
     font-size: 3.5em; } }
+@media screen and (max-width: 413px) {
+  html {
+    font-size: .55em; } }
 *,
 *::before,
 *::after {

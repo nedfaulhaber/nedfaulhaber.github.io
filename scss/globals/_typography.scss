@@ -37,6 +37,7 @@ p {
   line-height: 1.2em;
 }
 
+
 @media screen and (max-width: 1134px) {
   html {
     font-size: .75em;
@@ -70,5 +71,11 @@ p {
 @media screen and (min-width: 4550px) {
   html {
     font-size: 3.5em;
+  }
+}
+
+@media screen and (max-width: 413px) {
+  html {
+    font-size: .55em;
   }
 }
