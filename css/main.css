@@ -8,7 +8,7 @@ body {
   z-index: 1;
   top: 0;
   right: 0;
-  background-color: #111;
+  background-color: #000016;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 3.75em; }
@@ -18,7 +18,10 @@ body {
     color: #D8BFAA;
     font-size: 28px;
     display: block;
-    transition: 0.3s; }
+    transition: 0.3s;
+    font-family: 'Roboto Condensed', sans-serif; }
+    .sidenav a:hover, .sidenav a:active {
+      color: #EBF5EE; }
   .sidenav .sidenav .closebtn {
     position: absolute;
     top: 0;
@@ -83,7 +86,9 @@ body {
         padding-left: 2em; } }
     @media screen and (max-width: 780px) {
       .hero .nav {
-        justify-content: center; } }
+        justify-content: flex-end;
+        padding: 0 0 8em 3em;
+        margin-right: 2em; } }
     @media screen and (max-width: 670px) {
       .hero .nav {
         margin-right: 1em; } }
@@ -105,6 +110,14 @@ body {
     .hero .nav li a {
       text-decoration: none;
       color: #D8BFAA; }
+      .hero .nav li a:hover, .hero .nav li a:active {
+        color: #EBF5EE; }
+      @media screen and (max-width: 780px) {
+        .hero .nav li a {
+          font-size: 1.3em; } }
+      @media screen and (max-width: 525px) {
+        .hero .nav li a {
+          font-size: 1em; } }
   .hero .header {
     display: flex;
     flex-direction: column;
@@ -146,10 +159,11 @@ body {
     @media screen and (max-width: 780px) {
       .hero .header {
         padding-left: 1em;
-        width: 50%; } }
+        width: 67%;
+        margin-top: 12%; } }
     @media screen and (max-width: 670px) {
       .hero .header {
-        width: 60%; } }
+        width: 70%; } }
     @media screen and (max-width: 525px) {
       .hero .header {
         margin: 15% 0 0 10%;
@@ -230,6 +244,12 @@ body {
           align-items: flex-end; }
           .hero .header .name .first-name {
             align-self: flex-start; } }
+      @media screen and (max-width: 780px) {
+        .hero .header .name {
+          font-size: 1.25em; } }
+      @media screen and (max-width: 525px) {
+        .hero .header .name {
+          font-size: 1em; } }
     .hero .header .skills {
       display: flex;
       align-self: flex-end;
@@ -755,6 +775,12 @@ body {
   letter-spacing: .2em;
   background-color: #00021C;
   color: #D8BFAA; }
+  .footer img {
+    height: 85%;
+    width: auto; }
+
+.about-footer {
+  background-color: seagreen; }
 
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126

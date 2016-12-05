@@ -9,7 +9,7 @@ body {
   z-index: 1;
   top: 0;
   right: 0;
-  background-color: #111;
+  background-color: #000016;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 3.75em;
@@ -19,7 +19,11 @@ body {
     color: #D8BFAA;
     font-size: 28px;
     display: block;
-    transition: 0.3s
+    transition: 0.3s;
+    font-family: 'Roboto Condensed', sans-serif;
+    &:hover, &:active {
+      color: #EBF5EE;
+    }
   }
   .sidenav .closebtn {
     position: absolute;
@@ -88,7 +92,9 @@ body {
       padding-left: 2em;
     }
     @media screen and (max-width: 780px) {
-      justify-content: center;
+      justify-content: flex-end;
+      padding: 0 0 8em 3em;
+      margin-right: 2em;
     }
     @media screen and (max-width: 670px) {
       margin-right: 1em;
@@ -112,6 +118,15 @@ body {
     li a {
       text-decoration: none;
       color: #D8BFAA;
+      &:hover, &:active {
+        color: #EBF5EE;
+      }
+      @media screen and (max-width: 780px) {
+        font-size: 1.3em;
+      }
+      @media screen and (max-width: 525px) {
+        font-size: 1em;
+      }
     }
   }
   .header {
@@ -154,10 +169,11 @@ body {
     }
     @media screen and (max-width: 780px) {
       padding-left: 1em;
-      width: 50%;
+      width: 67%;
+      margin-top: 12%;
     }
     @media screen and (max-width: 670px) {
-      width: 60%;
+      width: 70%;
     }
     @media screen and (max-width: 525px) {
       margin: 15% 0 0 10%;
@@ -249,6 +265,12 @@ body {
         .first-name {
           align-self: flex-start;
         }
+      }
+      @media screen and (max-width: 780px) {
+        font-size: 1.25em;
+      }
+      @media screen and (max-width: 525px) {
+        font-size: 1em;
       }
     }
     .skills {
@@ -891,4 +913,8 @@ body {
   letter-spacing: .2em;
   background-color: #00021C;
   color: #D8BFAA;
+  img {
+    height: 85%;
+    width: auto;
+  }
 }
