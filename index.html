@@ -3,60 +3,160 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
+
     <link rel="stylesheet" href="css/main.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,700|Roboto+Condensed" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/scripts.js"></script>
+
     <title>Ned Faulhaber</title>
   </head>
   <body>
-    <div class="wrapper">
+    <div id="mobile-nav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="#">About</a>
+      <a href="https://www.linkedin.com/in/ned-but-not-stark">LinkedIn</a>
+      <a href="https://github.com/nedfaulhaber">Github</a>
+      <a href="#">Contact</a>
+    </div>
+    <div id="wrapper">
       <div class="hero">
         <div class="nav">
           <ul>
-            <li>thing</li>
-            <li>blah</li>
-            <li>blah</li>
-            <li>blah</li>
+            <li><a href="#">About</a></li>
+            <li><a href="https://www.linkedin.com/in/ned-but-not-stark">LinkedIn</a></li>
+            <li><a href="https://github.com/nedfaulhaber">Github</a></li>
+            <li><a href="#">Contact</a></li>
           </ul>
         </div>
         <div class="header">
-          <div class="first-name">
-            <h1>Ned</h1>
-          </div>
-          <div class="last-name">
-            <h1>Faulhaber</h1>
+          <div class="name">
+            <div class="first-name">
+              <h1>Ned</h1>
+            </div>
+            <div class="last-name">
+              <h1>Faulhaber</h1>
+            </div>
           </div>
           <div class="skills">
             <h2>Design</h2>
             <h2>Development</h2>
           </div>
         </div>
+        <span class="hamburger" onclick="openNav()">&#9776;</span>
       </div>
-    </div>
-    <div class="intro">
-      <h3>From wireframes to code, I keep it simple and make it beautiful.  I'll do whatever it takes to create fabulous user experiences that reflect clients' visions and deliver the content they need - and have fun doing it.</h3>
-    </div>
-    <div class="projects">
-      <div class="separator-line"></div>
-      <h3>Some of My Recent Projects</h3>
-      <div class="separator-line"></div>
-    </div>
-    <div class="bach-to-tupac">
-      <div class="btt-image">
-        <img src="img/BtTsplashimg75.png" alt="image of Bach to Tupac splash page" />
+      <div class="intro">
+        <h3>From wireframes to code, I keep it simple and make it beautiful.  I'll do whatever it takes to create fabulous user experiences that reflect clients' visions and deliver the content they need - and have fun doing it.</h3>
       </div>
-      <div class="project-title">
-        <div class="colors-bar">
-          <div class="color" id=violet></div>
-          <div class="color" id=buff></div>
-          <div class="color" id=pale-aqua></div>
-          <div class="color" id=antiflash-white></div>
-          <div class="color" id=dark-vanilla></div>
+      <div class="projects-header">
+        <div class="separator-line"></div>
+        <h3>Some of My Recent Projects</h3>
+        <div class="separator-line"></div>
+      </div>
+      <div class="bach-to-tupac">
+        <div class="btt-image">
+          <img src="img/BtTsplashimg.png" alt="image of Bach to Tupac splash page, semi-transparent images of Bach and Tupac over each other"/>
         </div>
-        <h2>Bach to Tupac</h2>
-        <div class="tools-used">
-          <h4>Sketch & InVision</h4>
+        <div class="project">
+          <div class="colors-bar">
+            <div class="color" id=violet></div>
+            <div class="color" id=buff></div>
+            <div class="color" id=pale-aqua></div>
+            <div class="color" id=antiflash-white></div>
+            <div class="color" id=dark-vanilla></div>
+          </div>
+          <div class="title">
+            <h2>Bach to Tupac</h2>
+            <div class="dropdown-content">
+              <p>A prototype for a website dedicated to breaking down musical genre barriers.</p>
+              <h5><a href="#">View the Prototype</a></h5>
+            </div>
+            <div class="tools-used">
+              <h4>Sketch & InVision</h4>
+            </div>
+          </div>
         </div>
+      </div>
+      <div class="bjork">
+        <div class="bjork-image">
+          <img src="img/bjork_site_home.png" alt="image of Bjork home page, 2 Bjorks cheek to cheek with black background, white  text"/>
+        </div>
+        <div class="project">
+          <div class="colors-bar">
+            <div class="color" id=violet></div>
+            <div class="color" id=buff></div>
+            <div class="color" id=pale-aqua></div>
+            <div class="color" id=antiflash-white></div>
+            <div class="color" id=dark-vanilla></div>
+          </div>
+          <div class="title">
+            <h2>Björk - Nothing's Impossible</h2>
+            <div class="dropdown-content">
+              <p>A design for a fan site surrounding all things related to Icelandic musician, composer, and artist Björk.</p>
+              <h5><a href="#">View the Page</a></h5>
+            </div>
+            <div class="tools-used">
+              <h4>Sass & Flexbox</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cart-modal">
+        <div class="cart-modal-image">
+          <img src="img/trackers modal.png" alt="image of Trackers Earth shopping cart modal, grey/red over white, with drop shadow"/>
+        </div>
+        <div class="project">
+          <div class="colors-bar">
+            <div class="color" id=violet></div>
+            <div class="color" id=buff></div>
+            <div class="color" id=pale-aqua></div>
+            <div class="color" id=antiflash-white></div>
+            <div class="color" id=dark-vanilla></div>
+          </div>
+          <div class="title">
+            <h2>Shopping Cart Modal</h2>
+            <div class="dropdown-content">
+              <p>A shopping cart modal for Trackers Earth, an award-winning outdoor education and camp organization.</p>
+              <h5><a href="#">View the Code</a></h5>
+            </div>
+            <div class="tools-used">
+              <h4>Sass, Flexbox, & Pseudo-Elements</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="wireframes">
+        <div class="wireframes-images">
+          <img src="img/Sign Up Copy.png" alt="image of a blue, grey, white themed wireframe for the sign up page of the Trackers Earth website"/>
+          <img src="img/Final Payment Copy.png" alt="image of a blue, grey, white themed wireframe for the final payment page of the Trackers Earth website" />
+        </div>
+        <div class="project">
+          <div class="colors-bar">
+            <div class="color" id=violet></div>
+            <div class="color" id=buff></div>
+            <div class="color" id=pale-aqua></div>
+            <div class="color" id=antiflash-white></div>
+            <div class="color" id=dark-vanilla></div>
+          </div>
+          <div class="title">
+            <h2>Wireframes</h2>
+            <div class="dropdown-content">
+              <p>Wireframes created for the Trackers Earth website.</p>
+              <h5><a href="#">View the Sketch Artboards</a></h5>
+              <p id="footnote">(requires Sketch)</p>
+            </div>
+            <div class="tools-used">
+              <h4>Sketch</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <img src="img/github.png" alt="github icon"/>
+        <p>©2016 Ned Faulhaber</p>
+        <img src="img/linkedin.png" alt="linkedin icon"/>
       </div>
     </div>
   </body>
