@@ -815,6 +815,7 @@ body {
       border-radius: .75em;
       margin-right: 2em;
       @media screen and (max-width: 670px) {
+        height: auto;
         width: 49%;
         margin-right: 0;
       }

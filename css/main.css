@@ -698,6 +698,7 @@ body {
       margin-right: 2em; }
       @media screen and (max-width: 670px) {
         .wireframes .wireframes-images img {
+          height: auto;
           width: 49%;
           margin-right: 0; } }
   .wireframes .project {
