@@ -780,8 +780,107 @@ body {
     height: 85%;
     width: auto; }
 
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #000016;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 3.75em; }
+  .sidenav a {
+    padding: 1em .5em .5em 2em;
+    text-decoration: none;
+    color: #D8BFAA;
+    font-size: 28px;
+    display: block;
+    transition: 0.3s;
+    font-family: 'Roboto Condensed', sans-serif; }
+    .sidenav a:hover, .sidenav a:active {
+      color: #EBF5EE; }
+  .sidenav .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 3.125em; }
+  .sidenav .closebtn {
+    font-size: 4em;
+    padding-left: .75em; }
+
+#wrapper {
+  max-width: 5120px;
+  background-color: #E4E2E2;
+  transition: .5s; }
+
+.about-header {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-image: url("../img/about page lg.png");
+  background-position: 0 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative; }
+  .about-header .about-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+    width: 10%;
+    margin-right: 2em; }
+    @media screen and (max-width: 1135px) {
+      .about-header .about-nav {
+        margin-right: 6.5em; } }
+    @media screen and (max-width: 852px) {
+      .about-header .about-nav {
+        padding-left: 2em; } }
+    @media screen and (max-width: 780px) {
+      .about-header .about-nav {
+        justify-content: flex-end;
+        padding: 0 0 8em 3em;
+        margin-right: 2em; } }
+    @media screen and (max-width: 670px) {
+      .about-header .about-nav {
+        margin-right: 1em; } }
+    @media screen and (max-width: 524px) {
+      .about-header .about-nav {
+        display: none;
+        height: 0;
+        width: 0; } }
+    .about-header .about-nav ul {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      height: 60%;
+      margin-top: 2em;
+      padding-left: 1em; }
+      @media screen and (max-width: 780px) {
+        .about-header .about-nav ul {
+          height: 70%; } }
+    .about-header .about-nav li a {
+      text-decoration: none;
+      color: #D8BFAA; }
+      .about-header .about-nav li a:hover, .about-header .about-nav li a:active {
+        color: #EBF5EE; }
+
 .about-footer {
-  background-color: seagreen; }
+  background-color: brown;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 6.25em;
+  letter-spacing: .2em;
+  color: #D8BFAA; }
+  .about-footer img {
+    height: 85%;
+    width: auto; }
 
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
