@@ -44,17 +44,36 @@
   justify-content: flex-start;
   align-items: flex-start;
   background-image: url('../img/about page lg.png');
-  background-position: 0 0;
-  background-size: contain;
+  background-position: center 85%;
+  background-size: cover;
   background-repeat: no-repeat;
   position: relative;
+  @media screen and (max-width: 900px) {
+    background-position: 99% 85%;
+  }
+  @media screen and (max-width: 500px) {
+    background-size: contain;
+    background-position: top;
+  }
+  .hamburger {
+    color: white;
+    margin: 1em 1em 0 1em;
+    font-size: 3em;
+    cursor: pointer;
+    @media screen and (min-width: 779px) {
+      display: none;
+      height: 0;
+      width: 0;
+    }
+  }
   .about-nav {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
     height: 100%;
-    width: 10%;
+    width: 15%;
+    font-size: 1.5em;
     margin-right: 2em;
     @media screen and (max-width: 1135px) {
       margin-right: 6.5em;
@@ -63,14 +82,6 @@
       padding-left: 2em;
     }
     @media screen and (max-width: 780px) {
-      justify-content: flex-end;
-      padding: 0 0 8em 3em;
-      margin-right: 2em;
-    }
-    @media screen and (max-width: 670px) {
-      margin-right: 1em;
-    }
-    @media screen and (max-width: 524px) {
       display: none;
       height: 0;
       width: 0;
@@ -94,15 +105,6 @@
       }
     }
   }
-
-  // .about-image {
-  //   height: 100%;
-  //   width: 90%;
-  //   background-image: url('../img/about page lg.png');
-  //   background-position: left;
-  //   background-size: contain;
-  //   background-repeat: no-repeat;
-  // }
 }
 
 .about-footer {
