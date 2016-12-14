@@ -107,6 +107,18 @@
   }
 }
 
+.qa-title {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 4em 0 4em;
+  h4 {
+    line-height: 2em;
+  }
+}
+
+
 .about-footer {
   background-color: brown;
   display: flex;
