@@ -1,24 +1,24 @@
-#about-mobile-nav {
+#con-mobile-nav {
   height: 100%;
   width: 0;
   position: fixed;
   z-index: 1;
   top: 0;
   right: 0;
-  background-color: #000016;
+  background-color: #0C090D;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 3.75em;
   a {
     padding: 1em .5em .5em 2em;
     text-decoration: none;
-    color: #D8BFAA;
+    color: #DD99BB;
     font-size: 28px;
     display: block;
     transition: 0.3s;
     font-family: 'Roboto Condensed', sans-serif;
     &:hover, &:active {
-      color: #EBF5EE;
+      color: #FFF8F0;
     }
   }
   .sidenav .closebtn {
@@ -32,29 +32,20 @@
     padding-left: .75em;
   }
 }
+
 #wrapper {
   max-width: 5120px;
   background-color: #E4E2E2;
   transition: .5s;
 }
-.about-header {
+
+.contacts-page {
   display: flex;
-  height: 100vh;
-  width: 100%;
   justify-content: flex-start;
   align-items: flex-start;
-  background-image: url('../img/about page lg.png');
-  background-position: center 85%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: relative;
-  @media screen and (max-width: 900px) {
-    background-position: 99% 85%;
-  }
-  @media screen and (max-width: 500px) {
-    background-size: cover;
-    background-position: 90% 50%;
-  }
+  height: 100vh;
+  width: 100%;
+  background-color: #362C28;
   .hamburger {
     color: white;
     margin: 1em 1em 0 1em;
@@ -66,20 +57,19 @@
       width: 0;
     }
   }
-  .about-nav {
+  .contacts-nav {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: flex-start;
     height: 100%;
     width: 15%;
-    font-size: 1.5em;
-    margin-right: 2em;
+    margin-right: 1em;
     @media screen and (max-width: 1135px) {
-      margin-right: 6.5em;
+      margin-right: 4em;
     }
     @media screen and (max-width: 852px) {
-      padding-left: 2em;
+      padding-left: 1em;
     }
     @media screen and (max-width: 780px) {
       display: none;
@@ -92,56 +82,68 @@
       justify-content: space-around;
       height: 60%;
       margin-top: 2em;
-      padding-left: 1em;
+      padding-left: 4em;
       @media screen and (max-width: 780px) {
         height: 70%;
       }
     }
     li a {
       text-decoration: none;
-      color: #D8DCFF;
+      color: #DD99BB;
       &:hover, &:active {
         color: #EBF5EE;
       }
     }
   }
-}
-
-.qa {
-  background-color: #52489C;
-  color: white;
-  .qa-title {
-    text-align: center;
+  .contacts {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin-bottom: 4em;
-    padding-top: 4em;
-    border-top: 1em solid black;
-    h4 {
-      line-height: 2em;
+    height: 75%;
+    width: 68%;
+    @media screen and (max-width: 780px) {
+      width: 100%;
     }
-    @media screen and (max-width: 575px) {
-      h2 {
-        line-height: 1.5em;
+    align-items: center;
+    justify-content: center;
+    margin-right: 6em;
+    h2 {
+      color: #FFF8F0;
+      line-height: 2em;
+      font-size: 3em;
+      @media screen and (max-width: 1134px) {
+        font-size: 3.5em;
+      }
+      @media screen and (max-width: 878px) {
+        font-size: 3em;
+      }
+      @media screen and (max-width: 670px) {
+        font-size: 2.5em;
+      }
+      @media screen and (max-width: 590px) {
+        font-size: 2em;
+      }
+      @media screen and (max-width: 375px) {
+        font-size: 1.5em
       }
     }
-  }
-  .qa-content {
-    margin: 0 5em 0 5em;
-    p {
-      line-height: 2.5em;
-      font-size: 1.2em;
+    a {
+      text-decoration: none;
+      color: #C0FDFB;
+      &:hover, &:active {
+        color: #598392;
+      }
     }
+
   }
 }
-.about-footer {
-  background-color: #3F3047;
+
+.contacts-footer {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 6.25em;
   letter-spacing: .2em;
-  color: #98B9AB;
+  background-color: #0C090D;
+  color: #DD99BB;
 }
