@@ -11,7 +11,7 @@ _The homepage has links to multiple projects that I have created.  This portfoli
 ## Setup/Installation Requirements
 
 * _Go to this repository, and either clone or click on the link to the site_
-* _If you don't already own Sketch, downloading a free trial at https://www.sketchapp.com/ will be useful for seeing some of my projects in full_
+
 
 ## Known Bugs
 
