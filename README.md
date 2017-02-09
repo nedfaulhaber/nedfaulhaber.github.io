@@ -1,8 +1,8 @@
-# _Portfolio - Ned Faulhaber_
+# Portfolio - Ned Faulhaber
 
-#### _A portfolio of my recent projects, with contact information and information about me, 2017_
+#### _A portfolio of my recent projects, as of Feb. 2017_
 
-#### By _**Ned Faulhaber**_
+#### By **Ned Faulhaber**
 
 ## Description
 
@@ -29,7 +29,7 @@ _This site utilized HTML, Sass, and Javascript_
 
 This site was published under the MIT license
 
-Copyright (c) 2017 **_Ned Faulhaber_**
+Copyright (c) 2017 **Ned Faulhaber**
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
