@@ -657,7 +657,7 @@ body {
     .wireframes {
       flex-direction: column;
       align-items: center;
-      margin-bottom: 14em; } }
+      padding-bottom: 14em; } }
   .wireframes .dropdown-content {
     opacity: 0;
     position: absolute; }
