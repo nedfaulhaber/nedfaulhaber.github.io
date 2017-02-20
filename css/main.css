@@ -301,20 +301,20 @@ body {
         margin-top: 4em; } }
   @media screen and (min-width: 1025px) {
     .bach-to-tupac:hover #dark-vanilla {
-      transition: all .5s ease-out;
+      transition: all .75s ease-out;
       transform: translateX(7.4em); }
     .bach-to-tupac:hover #antiflash-white {
-      transition: all .5s ease-out;
+      transition: all .75s ease-out;
       transform: translateX(5.525em); }
     .bach-to-tupac:hover #pale-aqua {
-      transition: all .5s ease-out;
+      transition: all .75s ease-out;
       transform: translateX(3.65em); }
     .bach-to-tupac:hover #buff {
-      transition: all .5s ease-out;
+      transition: all .75s ease-out;
       transform: translateX(1.775em); }
     .bach-to-tupac:hover .dropdown-content {
       opacity: 1;
-      transition: all .3s ease 1s;
+      transition: all .5s ease 1s;
       transform: translateY(3.5em); } }
   .bach-to-tupac .btt-image {
     margin-left: 2em; }
@@ -422,20 +422,20 @@ body {
           width: 100%; } }
   @media screen and (min-width: 1025px) {
     .bjork:hover #dark-vanilla {
-      transition: all .5s ease-out;
+      transition: all .75s ease-out;
       transform: translateX(23.063em); }
     .bjork:hover #antiflash-white {
-      transition: all .5s ease-out;
+      transition: all .75s ease-out;
       transform: translateX(17.297em); }
     .bjork:hover #pale-aqua {
-      transition: all .5s ease-out;
+      transition: all .75s ease-out;
       transform: translateX(11.416em); }
     .bjork:hover #buff {
-      transition: all .5s ease-out;
+      transition: all .75s ease-out;
       transform: translateX(5.48em); }
     .bjork:hover .dropdown-content {
       opacity: 1;
-      transition: all .3s ease 1s;
+      transition: all .5s ease 1s;
       transform: translateY(3.5em); } }
   .bjork .project {
     align-self: flex-start;
@@ -529,20 +529,20 @@ body {
         margin-top: 4em; } }
   @media screen and (min-width: 1025px) {
     .cart-modal:hover #dark-vanilla {
-      transition: all .5s ease-out;
+      transition: all .75s ease-out;
       transform: translateX(15.563em); }
     .cart-modal:hover #antiflash-white {
-      transition: all .5s ease-out;
+      transition: all .75s ease-out;
       transform: translateX(11.672em); }
     .cart-modal:hover #pale-aqua {
-      transition: all .5s ease-out;
+      transition: all .75s ease-out;
       transform: translateX(7.673em); }
     .cart-modal:hover #buff {
-      transition: all .5s ease-out;
+      transition: all .75s ease-out;
       transform: translateX(3.66em); }
     .cart-modal:hover .dropdown-content {
       opacity: 1;
-      transition: all .3s ease 1s;
+      transition: all .5s ease 1s;
       transform: translateY(3.5em); } }
   .cart-modal .cart-modal-image {
     margin-left: 2em; }
@@ -667,20 +667,20 @@ body {
         margin-top: 3.5em; } }
   @media screen and (min-width: 1025px) {
     .wireframes:hover #dark-vanilla {
-      transition: all .5s ease-out;
+      transition: all .75s ease-out;
       transform: translateX(4.625em); }
     .wireframes:hover #antiflash-white {
-      transition: all .5s ease-out;
+      transition: all .75s ease-out;
       transform: translateX(3.469em); }
     .wireframes:hover #pale-aqua {
-      transition: all .5s ease-out;
+      transition: all .75s ease-out;
       transform: translateX(2.289em); }
     .wireframes:hover #buff {
-      transition: all .5s ease-out;
+      transition: all .75s ease-out;
       transform: translateX(1.15em); }
     .wireframes:hover .dropdown-content {
       opacity: 1;
-      transition: all .3s ease 1s;
+      transition: all .5s ease 1s;
       transform: translateY(3.5em); } }
   .wireframes .wireframes-images {
     margin-right: 2em;
@@ -818,7 +818,7 @@ body {
   width: 100%;
   justify-content: flex-start;
   align-items: flex-start;
-  background-image: url("../img/about page lg.png");
+  background-image: url("../img/about page.png");
   background-position: center 85%;
   background-size: cover;
   background-repeat: no-repeat;
