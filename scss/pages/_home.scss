@@ -460,7 +460,8 @@ body {
   position: relative;
   margin-bottom: 4em;
   @media screen and (max-width: 670px) {
-    margin: 15em 0 12em;
+    margin-top: 15em;
+    padding-bottom: 4em;
   }
   .dropdown-content {
     opacity: 0;
