@@ -292,7 +292,8 @@ body {
   @media screen and (max-width: 670px) {
     .participate {
       flex-direction: column;
-      align-items: center; } }
+      align-items: center;
+      padding-bottom: 4em; } }
   .participate .dropdown-content {
     opacity: 0;
     position: absolute; }
@@ -521,7 +522,8 @@ body {
   @media screen and (max-width: 670px) {
     .bach-to-tupac {
       flex-direction: column;
-      align-items: center; } }
+      align-items: center;
+      padding-bottom: 8em; } }
   .bach-to-tupac .dropdown-content {
     opacity: 0;
     position: absolute; }
@@ -629,8 +631,7 @@ body {
   margin-bottom: 12em; }
   @media screen and (max-width: 670px) {
     .cart-modal {
-      margin-bottom: 22em;
-      padding-top: 5em; } }
+      padding-bottom: 4em; } }
   @media screen and (max-width: 525px) {
     .cart-modal {
       margin-bottom: 12em; } }

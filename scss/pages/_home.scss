@@ -321,6 +321,7 @@ body {
   @media screen and (max-width: 670px) {
     flex-direction: column;
     align-items: center;
+    padding-bottom: 4em;
   }
   .dropdown-content {
     opacity: 0;
@@ -603,6 +604,7 @@ body {
   @media screen and (max-width: 670px) {
     flex-direction: column;
     align-items: center;
+    padding-bottom: 8em;
   }
   .dropdown-content {
     opacity: 0;
@@ -736,8 +738,8 @@ body {
   position: relative;
   margin-bottom: 12em;
   @media screen and (max-width: 670px) {
-    margin-bottom: 22em;
-    padding-top: 5em;
+    // margin-bottom: 22em;
+    padding-bottom: 4em;
 
   }
   @media screen and (max-width: 525px) {
