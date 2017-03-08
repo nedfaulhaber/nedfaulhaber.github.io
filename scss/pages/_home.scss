@@ -818,13 +818,13 @@ body {
     position: relative;
     margin: 2em 3.5em 0 7.5em;
     @media screen and (max-width: 970px) {
-      margin-left: 8em;
+      margin-left: 6em;
     }
     @media screen and (max-width: 852px) {
-      margin-top: 3.5em;
+      margin: 3.5em 3.5em 0 3.5em;
+      align-items: center;
     }
     @media screen and (max-width: 670px) {
-      align-items: center;
       width: 70%;
       margin: 3.5em 0 0;
     }
