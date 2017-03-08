@@ -810,7 +810,7 @@ body {
         margin: 0;
         justify-content: space-between; } }
     .wireframes .wireframes-images img {
-      height: 100%;
+      height: auto;
       width: 25vw;
       border-radius: .75em;
       margin-left: 2em; }
