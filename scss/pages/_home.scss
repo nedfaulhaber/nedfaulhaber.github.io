@@ -317,7 +317,7 @@ body {
   width: 100%;
   height: auto;
   position: relative;
-  margin: 8em 0 8em;
+  margin: 8em 0 18em;
   @media screen and (max-width: 670px) {
     flex-direction: column;
     align-items: center;
@@ -458,7 +458,7 @@ body {
   width: 100%;
   height: auto;
   position: relative;
-  margin-bottom: 4em;
+  margin-bottom: 10em;
   @media screen and (max-width: 670px) {
     margin: 15em 0 4em;
   }
@@ -598,7 +598,7 @@ body {
   width: 100%;
   height: auto;
   position: relative;
-  margin-bottom: 10em;
+  margin: 5em 0 20em;
   @media screen and (max-width: 670px) {
     flex-direction: column;
     align-items: center;
@@ -733,7 +733,7 @@ body {
   width: 100%;
   height: auto;
   position: relative;
-  margin-bottom: 12em;
+  margin-bottom: 13em;
   @media screen and (max-width: 670px) {
     margin-bottom: 22em;
     padding-top: 5em;
