@@ -373,6 +373,8 @@ body {
     .participate .project .title {
       white-space: nowrap;
       overflow: none; }
+      .participate .project .title h2 {
+        text-align: center; }
       .participate .project .title .dropdown-content {
         display: flex;
         width: 17.188em;

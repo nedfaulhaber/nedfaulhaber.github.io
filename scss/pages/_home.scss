@@ -421,6 +421,9 @@ body {
     .title {
       white-space: nowrap;
       overflow: none;
+      h2 {
+        text-align: center;
+      }
       .dropdown-content {
         display: flex;
         width: 17.188em;
