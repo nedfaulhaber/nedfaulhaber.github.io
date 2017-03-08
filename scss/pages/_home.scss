@@ -737,9 +737,8 @@ body {
   height: auto;
   position: relative;
   margin-bottom: 12em;
-  padding-bottom: 4em;
   @media screen and (max-width: 670px) {
-    margin-bottom: 22em;
+    // margin-bottom: 22em;
     padding-bottom: 4em;
 
   }
@@ -915,7 +914,7 @@ body {
   @media screen and (max-width: 670px) {
     flex-direction: column;
     align-items: center;
-    padding-bottom: 8em;
+    padding-bottom: 10em;
   }
   .dropdown-content {
     opacity: 0;

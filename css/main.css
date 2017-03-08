@@ -628,11 +628,9 @@ body {
   width: 100%;
   height: auto;
   position: relative;
-  margin-bottom: 12em;
-  padding-bottom: 4em; }
+  margin-bottom: 12em; }
   @media screen and (max-width: 670px) {
     .cart-modal {
-      margin-bottom: 22em;
       padding-bottom: 4em; } }
   @media screen and (max-width: 525px) {
     .cart-modal {
@@ -779,7 +777,7 @@ body {
     .wireframes {
       flex-direction: column;
       align-items: center;
-      padding-bottom: 8em; } }
+      padding-bottom: 10em; } }
   .wireframes .dropdown-content {
     opacity: 0;
     position: absolute; }
