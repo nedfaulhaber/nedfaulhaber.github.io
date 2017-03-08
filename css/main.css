@@ -405,8 +405,7 @@ body {
   margin-bottom: 4em; }
   @media screen and (max-width: 670px) {
     .bjork {
-      margin-top: 15em;
-      padding-bottom: 4em; } }
+      margin: 15em 0 12em; } }
   .bjork .dropdown-content {
     opacity: 0;
     position: absolute; }
