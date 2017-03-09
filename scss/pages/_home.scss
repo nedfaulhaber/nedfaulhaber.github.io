@@ -66,6 +66,13 @@ body {
   @media screen and (max-width: 524px) {
     justify-content: space-between;
   }
+  @media screen and (min-height: 1300px) {
+    background-position: 70% 100%;
+  }
+  @media screen and (max-height: 450px) {
+    background-position: 10% 100%;
+  }
+
   .hamburger {
     color: white;
     margin: 1em 1em 0 0;
@@ -99,6 +106,9 @@ body {
     @media screen and (max-width: 670px) {
       margin-right: 1em;
     }
+    @media screen and (max-height: 450px) {
+      padding-bottom: 4em;
+    }
     @media screen and (max-width: 524px) {
       display: none;
       height: 0;
@@ -113,6 +123,9 @@ body {
       padding-left: 1em;
       @media screen and (max-width: 780px) {
         height: 70%;
+      }
+      @media screen and (max-height: 450px) {
+        height: 60%;
       }
     }
     li a {
@@ -178,7 +191,10 @@ body {
     @media screen and (max-width: 525px) {
       margin: 15% 0 0 10%;
       width: 85%;
-
+    }
+    @media screen and (max-height: 450px) {
+      margin-top: 10%;
+      width: 55%;
     }
     .name {
       height: 10.5em;

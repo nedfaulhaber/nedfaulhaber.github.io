@@ -79,3 +79,15 @@ p {
     font-size: .55em;
   }
 }
+
+@media screen and (max-height: 450px) {
+  html {
+    font-size: .55em;
+  }
+}
+
+@media screen and (max-height: 325px) {
+  html {
+    font-size: .45em;
+  }
+}

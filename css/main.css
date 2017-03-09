@@ -60,6 +60,12 @@ body {
   @media screen and (max-width: 524px) {
     .hero {
       justify-content: space-between; } }
+  @media screen and (min-height: 1300px) {
+    .hero {
+      background-position: 70% 100%; } }
+  @media screen and (max-height: 450px) {
+    .hero {
+      background-position: 10% 100%; } }
   .hero .hamburger {
     color: white;
     margin: 1em 1em 0 0;
@@ -92,6 +98,9 @@ body {
     @media screen and (max-width: 670px) {
       .hero .nav {
         margin-right: 1em; } }
+    @media screen and (max-height: 450px) {
+      .hero .nav {
+        padding-bottom: 4em; } }
     @media screen and (max-width: 524px) {
       .hero .nav {
         display: none;
@@ -107,6 +116,9 @@ body {
       @media screen and (max-width: 780px) {
         .hero .nav ul {
           height: 70%; } }
+      @media screen and (max-height: 450px) {
+        .hero .nav ul {
+          height: 60%; } }
     .hero .nav li a {
       text-decoration: none;
       color: #D8BFAA; }
@@ -168,6 +180,10 @@ body {
       .hero .header {
         margin: 15% 0 0 10%;
         width: 85%; } }
+    @media screen and (max-height: 450px) {
+      .hero .header {
+        margin-top: 10%;
+        width: 55%; } }
     .hero .header .name {
       height: 10.5em;
       width: 100%;
@@ -1268,5 +1284,11 @@ p {
 @media screen and (max-width: 413px) {
   html {
     font-size: .55em; } }
+@media screen and (max-height: 450px) {
+  html {
+    font-size: .55em; } }
+@media screen and (max-height: 325px) {
+  html {
+    font-size: .45em; } }
 
 /*# sourceMappingURL=main.css.map */
