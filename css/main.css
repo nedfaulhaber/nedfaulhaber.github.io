@@ -1290,5 +1290,11 @@ p {
 @media screen and (max-height: 325px) {
   html {
     font-size: .45em; } }
+@media screen and (max-width: 1024px) {
+  .project {
+    font-size: 1.2em; } }
+@media screen and (max-width: 800px) {
+  .project {
+    font-size: 1em; } }
 
 /*# sourceMappingURL=main.css.map */
