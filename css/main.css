@@ -905,6 +905,123 @@ body {
       justify-content: center;
       margin-top: 1em; }
 
+.happy-bday {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  position: relative;
+  margin-bottom: 10em; }
+  @media screen and (max-width: 670px) {
+    .happy-bday {
+      margin: 15em 0 4em; } }
+  .happy-bday .dropdown-content {
+    opacity: 0;
+    position: absolute; }
+    @media screen and (max-width: 1024px) {
+      .happy-bday .dropdown-content {
+        opacity: 1;
+        margin-top: 3.5em; } }
+  .happy-bday .bday-image {
+    margin-right: 2em; }
+    @media screen and (max-width: 670px) {
+      .happy-bday .bday-image {
+        width: 94%;
+        margin-right: 0; } }
+    .happy-bday .bday-image img {
+      height: auto;
+      width: 85vw;
+      border-radius: .75em; }
+      @media screen and (max-width: 670px) {
+        .happy-bday .bday-image img {
+          width: 100%; } }
+  @media screen and (min-width: 1025px) {
+    .happy-bday:hover #dark-vanilla {
+      transition: all .75s ease-out;
+      transform: translateX(23.063em); }
+    .happy-bday:hover #antiflash-white {
+      transition: all .75s ease-out;
+      transform: translateX(17.297em); }
+    .happy-bday:hover #pale-aqua {
+      transition: all .75s ease-out;
+      transform: translateX(11.416em); }
+    .happy-bday:hover #buff {
+      transition: all .75s ease-out;
+      transform: translateX(5.48em); }
+    .happy-bday:hover .dropdown-content {
+      opacity: 1;
+      transition: all .5s ease 1s;
+      transform: translateY(3.5em); } }
+  .happy-bday .project {
+    align-self: flex-start;
+    color: black;
+    height: 30%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+    margin: 3em 3.75em 10em 14em; }
+    .happy-bday .project h2 {
+      text-align: center; }
+    @media screen and (max-width: 670px) {
+      .happy-bday .project {
+        width: 70%;
+        margin: 3em 0 10em 0;
+        align-self: center;
+        align-items: center; } }
+    .happy-bday .project .colors-bar {
+      width: 32.875em;
+      height: .75em;
+      margin-bottom: .5em; }
+      .happy-bday .project .colors-bar .color {
+        display: inline-block;
+        width: 1.75em;
+        height: 100%; }
+        @media screen and (max-width: 1024px) {
+          .happy-bday .project .colors-bar .color {
+            margin-right: 5.74em; } }
+      .happy-bday .project .colors-bar #violet {
+        background-color: #2F195F; }
+      .happy-bday .project .colors-bar #buff {
+        background-color: #F2D492; }
+      .happy-bday .project .colors-bar #pale-aqua {
+        background-color: #BFD1E5; }
+      .happy-bday .project .colors-bar #antiflash-white {
+        background-color: #EBF5EE; }
+      .happy-bday .project .colors-bar #dark-vanilla {
+        background-color: #D8BFAA; }
+        @media screen and (max-width: 1024px) {
+          .happy-bday .project .colors-bar #dark-vanilla {
+            margin: 0; } }
+    .happy-bday .project .title {
+      white-space: nowrap;
+      overflow: none; }
+      .happy-bday .project .title .dropdown-content {
+        display: flex;
+        width: 32.875em;
+        height: 4.8em;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        background-color: #E4E2E2; }
+        .happy-bday .project .title .dropdown-content p {
+          overflow-x: visible;
+          white-space: normal; }
+        .happy-bday .project .title .dropdown-content a {
+          color: #2F195F;
+          text-decoration: none; }
+          .happy-bday .project .title .dropdown-content a:hover {
+            color: #D8BFAA; }
+    .happy-bday .project .tools-used {
+      display: flex;
+      width: 32.875em;
+      justify-content: center;
+      margin-top: 1em; }
+
 .footer {
   display: flex;
   justify-content: center;
